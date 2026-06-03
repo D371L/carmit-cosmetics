@@ -115,6 +115,7 @@ def render_post(post: dict) -> str:
   <link rel="stylesheet" href="../css/a11y.css">
 </head>
 <body>
+  <script src="../js/page-loader.js"></script>
   <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
   <div class="ambient-glows" aria-hidden="true">
