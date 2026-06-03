@@ -6,21 +6,33 @@ window.BLOG_POSTS = [
     "date": "06/01/2026 09:00:59",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/לעור_שלך_מגיעה_התחדשות_rcfhjx.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_17.1,so_0/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_10.5,eo_17.5,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_10.5,eo_17.5,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_10.5,eo_17.5,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_10.5,eo_17.5,co_black/c_limit,g_center,so_17.1,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_17.5/t_credit_98p_b/לעור_שלך_מגיעה_התחדשות_rcfhjx.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_17.1,so_0/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_10.5,eo_17.5,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_10.5,eo_17.5,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_10.5,eo_17.5,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_10.5,eo_17.5,co_black/c_limit,g_center,so_17.1,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_17.5/t_credit_98p_b/לעור_שלך_מגיעה_התחדשות_rcfhjx.mp4",
+    "seoTitle": "לעור שלך מגיע התחדשות עמוקה ומראה זוהר — כרמית אסולין",
+    "description": "לעור שלך מגיע התחדשות עמוקה ומראה זוהר — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2026-01-06T09:00:59+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/לעור_שלך_מגיעה_התחדשות_rcfhjx.jpg"
   },
   {
     "id": 3099653,
     "title": "מתי נכון להתחיל עם חומצה היאלורונית? כרמית אסולין קוסמטיקה מתקדמת בקרית חיים עם התשובה",
     "date": "02/01/2026 08:29:27",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1767335373/production/users/12148/campaign/3099653_3e1edd9e-6913-47c8-b287-3cfa7857b52a.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "מתי נכון להתחיל עם חומצה היאלורונית? — כרמית אסולין",
+    "description": "מתי נכון להתחיל עם חומצה היאלורונית? — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2026-01-02T08:29:27+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1767335373/production/users/12148/campaign/3099653_3e1edd9e-6913-47c8-b287-3cfa7857b52a.jpg"
   },
   {
     "id": 3093051,
     "title": "כרמית אסולין קוסמטיקה מתקדמת בקרית חיים עם ההסבר על חשיבותו של טיפול הפנים",
     "date": "30/12/2025 13:51:43",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1767095509/production/users/12148/campaign/3093051_37652430-a6f9-4715-bfb8-43bf7347d4d4.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "פרסום מקצועי — כרמית אסולין",
+    "description": "היופי שלך בידים טובות | קוסמטיקאית בקרית חיים — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-12-30T13:51:43+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1767095509/production/users/12148/campaign/3093051_37652430-a6f9-4715-bfb8-43bf7347d4d4.jpg"
   },
   {
     "id": 3086164,
@@ -28,21 +40,33 @@ window.BLOG_POSTS = [
     "date": "28/12/2025 07:11:31",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/ipajin49jardmo1lucgv.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_10,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_34.7,eo_38.5,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_34.7,eo_38.5,w_700,c_limit,co_rgb:322626/l_text:rubik_35_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_34.7,eo_38.5,w_700,c_limit,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/ipajin49jardmo1lucgv.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_10,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_34.7,eo_38.5,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_34.7,eo_38.5,w_700,c_limit,co_rgb:322626/l_text:rubik_35_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_34.7,eo_38.5,w_700,c_limit,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/ipajin49jardmo1lucgv.mp4",
+    "seoTitle": "טיפול פנים - רענון הפנים בעזרת שתיית מים — כרמית אסולין",
+    "description": "טיפול פנים - רענון הפנים בעזרת שתיית מים — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-12-28T07:11:31+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/ipajin49jardmo1lucgv.jpg"
   },
   {
     "id": 3028703,
     "title": "נמאס לך להרגיש שהזמן עובר על הפנים שלך? מבצע מיוחד אצל כרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "28/11/2025 14:00:50",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1764216712/production/users/12148/campaign/3028703_7bfd0150-308a-4ef7-8921-2a9ad20f2ac2.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "נמאס לך להרגיש שהזמן עובר על הפנים שלך? — כרמית אסולין",
+    "description": "נמאס לך להרגיש שהזמן עובר על הפנים שלך? מבצע מיוחד אצל — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-11-28T14:00:50+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1764216712/production/users/12148/campaign/3028703_7bfd0150-308a-4ef7-8921-2a9ad20f2ac2.jpg"
   },
   {
     "id": 3028666,
     "title": "טיפול באקנה באור כחול הדרך הטבעית לעור נקי ובריא - כרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "27/11/2025 10:00:06",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1764188451/production/users/12148/campaign/3028666_0297a2ab-7a99-4e27-bdf1-2264d8772b5e.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "טיפול באקנה באור כחול הדרך הטבעית לעור נקי — כרמית אסולין",
+    "description": "טיפול באקנה באור כחול הדרך הטבעית לעור נקי ובריא — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-11-27T10:00:06+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1764188451/production/users/12148/campaign/3028666_0297a2ab-7a99-4e27-bdf1-2264d8772b5e.jpg"
   },
   {
     "id": 3016414,
@@ -50,7 +74,11 @@ window.BLOG_POSTS = [
     "date": "21/11/2025 09:00:58",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/v1594112527/dl0zhb.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_23.1,eo_29.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_23.1,eo_29.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1594112527/dl0zhb.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_23.1,eo_29.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_23.1,eo_29.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1594112527/dl0zhb.mp4",
+    "seoTitle": "טיפולי פנים מתקדמים- היראות צעירה יותר עם — כרמית אסולין",
+    "description": "טיפולי פנים מתקדמים- היראות צעירה יותר עם טיפול אנטי אייג׳ינג ב — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-11-21T09:00:58+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1594112527/dl0zhb.jpg"
   },
   {
     "id": 2996395,
@@ -58,7 +86,11 @@ window.BLOG_POSTS = [
     "date": "09/11/2025 15:30:58",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/lawyer2-27521_gxnzys.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_28.5,eo_32.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.5,eo_32.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_28.5,eo_32.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_28.5,eo_32.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/lawyer2-27521_gxnzys.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_28.5,eo_32.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.5,eo_32.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_28.5,eo_32.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_28.5,eo_32.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/lawyer2-27521_gxnzys.mp4",
+    "seoTitle": "טיפול פנים- זקוקה לטיפול פנים מקצועי שיחזיר — כרמית אסולין",
+    "description": "טיפול פנים- זקוקה לטיפול פנים מקצועי שיחזיר לך את החיוניות לעור? — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-11-09T15:30:58+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/lawyer2-27521_gxnzys.jpg"
   },
   {
     "id": 2974249,
@@ -66,7 +98,11 @@ window.BLOG_POSTS = [
     "date": "27/10/2025 19:52:32",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/v1668531231/My_video_FULL_HD_5_zaoixy.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,,so_21,,eo_28,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,,so_21,,eo_28,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,,so_21,,eo_28,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,,so_21,,eo_28,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1668531231/My_video_FULL_HD_5_zaoixy.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,,so_21,,eo_28,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,,so_21,,eo_28,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,,so_21,,eo_28,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,,so_21,,eo_28,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1668531231/My_video_FULL_HD_5_zaoixy.mp4",
+    "seoTitle": "אנטי אאייג'ינג- העניק לעור שלך מה שהטבע הפסיק — כרמית אסולין",
+    "description": "אנטי אאייג'ינג- העניק לעור שלך מה שהטבע הפסיק — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-10-27T19:52:32+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1668531231/My_video_FULL_HD_5_zaoixy.jpg"
   },
   {
     "id": 2966961,
@@ -74,14 +110,22 @@ window.BLOG_POSTS = [
     "date": "24/10/2025 09:00:02",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/nsjoqi.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_32.1,eo_38.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_32.1,eo_38.1,co_black/c_limit,g_center,so_98p,w_1000,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/nsjoqi.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_32.1,eo_38.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_32.1,eo_38.1,co_black/c_limit,g_center,so_98p,w_1000,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/nsjoqi.mp4",
+    "seoTitle": "טיפולי פנים- טיפים לטיפול בכתמי הפיגמנטציה מ — כרמית אסולין",
+    "description": "טיפולי פנים- טיפים לטיפול בכתמי הפיגמנטציה מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-10-24T09:00:02+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/nsjoqi.jpg"
   },
   {
     "id": 2944410,
     "title": "גלו את מהפכת היופי עם טיפולי פוטותרפיה! כרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "14/10/2025 09:00:50",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1760421657/production/users/12148/campaign/2944410_b3250b76-387b-4272-ae6e-fe5447f24933.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "גלו את מהפכת היופי עם טיפולי פוטותרפיה — כרמית אסולין",
+    "description": "גלו את מהפכת היופי עם טיפולי פוטותרפיה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-10-14T09:00:50+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1760421657/production/users/12148/campaign/2944410_b3250b76-387b-4272-ae6e-fe5447f24933.jpg"
   },
   {
     "id": 2925888,
@@ -89,7 +133,11 @@ window.BLOG_POSTS = [
     "date": "05/10/2025 09:00:34",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/sukot4-16821_uqmaam.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_22.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_22.7,eo_28.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_22.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_22.7,eo_28.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/sukot4-16821_uqmaam.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_22.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_22.7,eo_28.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_22.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_22.7,eo_28.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/sukot4-16821_uqmaam.mp4",
+    "seoTitle": "סוכות- לאחר יום כיפור, תנוחו לקראת סוכות. חג — כרמית אסולין",
+    "description": "סוכות- לאחר יום כיפור, תנוחו לקראת סוכות. חג שמח מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-10-05T09:00:34+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/sukot4-16821_uqmaam.jpg"
   },
   {
     "id": 2924877,
@@ -97,14 +145,22 @@ window.BLOG_POSTS = [
     "date": "03/10/2025 09:00:44",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/sukot2-2920_uomorz.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_19.2,eo_26.4,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_19.2,eo_26.4,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_19.2,eo_26.4,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_19.2,eo_26.4,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/sukot2-2920_uomorz.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_19.2,eo_26.4,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_19.2,eo_26.4,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_19.2,eo_26.4,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_19.2,eo_26.4,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/sukot2-2920_uomorz.mp4",
+    "seoTitle": "סוכות - תשקיעי בסוכה, וגם בעצמך! חג שמח מ — כרמית אסולין",
+    "description": "סוכות - תשקיעי בסוכה, וגם בעצמך! חג שמח מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-10-03T09:00:44+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/sukot2-2920_uomorz.jpg"
   },
   {
     "id": 2911005,
     "title": "סגולות הרימון: בריאות, יופי וטיפוח בפרי המלכותי | טיפ שכדאי להכיר מכרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "23/09/2025 07:17:43",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1758601069/production/users/12148/campaign/2911005_6b5eec3d-a10c-4299-b2f3-122c000884b6.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "סגולות הרימון: בריאות, יופי וטיפוח בפרי — כרמית אסולין",
+    "description": "סגולות הרימון: בריאות, יופי וטיפוח בפרי המלכותי | טיפ שכדאי להכיר מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-09-23T07:17:43+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1758601069/production/users/12148/campaign/2911005_6b5eec3d-a10c-4299-b2f3-122c000884b6.jpg"
   },
   {
     "id": 2890442,
@@ -112,7 +168,11 @@ window.BLOG_POSTS = [
     "date": "19/09/2025 09:00:47",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_25.9,eo_30.6,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_25.9,eo_30.6,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_25.9,eo_30.6,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_25.9,eo_30.6,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_25.9,eo_30.6,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_25.9,eo_30.6,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_25.9,eo_30.6,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_25.9,eo_30.6,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.mp4",
+    "seoTitle": "טיפולי פנים - חג שמח - את עסוקה בבישולים — כרמית אסולין",
+    "description": "טיפולי פנים - חג שמח - את עסוקה בבישולים לקראת החג — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-09-19T09:00:47+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.jpg"
   },
   {
     "id": 2890444,
@@ -120,14 +180,22 @@ window.BLOG_POSTS = [
     "date": "11/09/2025 09:00:14",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/gvscazaygvi0o9c44ncq.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_10,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_31,eo_35.5,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_31,eo_35.5,w_700,c_limit,co_rgb:322626/l_text:rubik_35_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_31,eo_35.5,w_700,c_limit,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/gvscazaygvi0o9c44ncq.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_10,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_31,eo_35.5,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_31,eo_35.5,w_700,c_limit,co_rgb:322626/l_text:rubik_35_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_31,eo_35.5,w_700,c_limit,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/gvscazaygvi0o9c44ncq.mp4",
+    "seoTitle": "טיפול פנים - את אשה עסוקה ואמא במשרה מלאה — כרמית אסולין",
+    "description": "טיפול פנים - את אשה עסוקה ואמא במשרה מלאה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-09-11T09:00:14+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/gvscazaygvi0o9c44ncq.jpg"
   },
   {
     "id": 2877172,
     "title": "שמירה על עור הפנים המפתח ליופי ובריאות - כרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "03/09/2025 14:34:55",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1756899301/production/users/12148/campaign/2877172_d78e8b68-17ed-4580-bbb9-004c80f570f5.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "שמירה על עור הפנים המפתח ליופי ובריאות — כרמית אסולין",
+    "description": "שמירה על עור הפנים המפתח ליופי ובריאות — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-09-03T14:34:55+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1756899301/production/users/12148/campaign/2877172_d78e8b68-17ed-4580-bbb9-004c80f570f5.jpg"
   },
   {
     "id": 2849609,
@@ -135,7 +203,11 @@ window.BLOG_POSTS = [
     "date": "19/08/2025 09:00:58",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_24.9,eo_29.7,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_24.9,eo_29.7,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_24.9,eo_29.7,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_24.9,eo_29.7,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_24.9,eo_29.7,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_24.9,eo_29.7,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_24.9,eo_29.7,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_24.9,eo_29.7,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.mp4",
+    "seoTitle": "טיפולי פנים - ניסית בעצמך — כרמית אסולין",
+    "description": "טיפולי פנים - ניסית בעצמך — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-08-19T09:00:58+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.jpg"
   },
   {
     "id": 2821952,
@@ -143,14 +215,22 @@ window.BLOG_POSTS = [
     "date": "05/08/2025 09:00:17",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_17.2,eo_23.2,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_17.2,eo_23.2,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_17.2,eo_23.2,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_17.2,eo_23.2,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_17.2,eo_23.2,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_17.2,eo_23.2,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_17.2,eo_23.2,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_17.2,eo_23.2,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.mp4",
+    "seoTitle": "טו באב- שיהיה לכם ט\"ו באב שמח וקסום מ — כרמית אסולין",
+    "description": "טו באב- שיהיה לכם ט\"ו באב שמח וקסום מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-08-05T09:00:17+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.jpg"
   },
   {
     "id": 2776685,
     "title": "צלקות אקנה, איך נפטרים מהן? - מידע חשוב מכרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "10/07/2025 10:31:38",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1752132704/production/users/12148/campaign/2776685_901f6348-85b9-4776-814f-f81668e8ce02.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "צלקות אקנה, איך נפטרים מהן? — כרמית אסולין",
+    "description": "צלקות אקנה, איך נפטרים מהן? - מידע חשוב מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-07-10T10:31:38+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1752132704/production/users/12148/campaign/2776685_901f6348-85b9-4776-814f-f81668e8ce02.jpg"
   },
   {
     "id": 2766068,
@@ -158,14 +238,22 @@ window.BLOG_POSTS = [
     "date": "06/07/2025 06:42:06",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/mhy69m.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_30.1,eo_35.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_30.1,eo_35.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_30.1,eo_35.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_30.1,eo_35.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/mhy69m.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_30.1,eo_35.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_30.1,eo_35.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_30.1,eo_35.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_30.1,eo_35.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/mhy69m.mp4",
+    "seoTitle": "טיפולי פנים- פילינג יהלום נוצץ ב — כרמית אסולין",
+    "description": "טיפולי פנים- פילינג יהלום נוצץ ב — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-07-06T06:42:06+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/mhy69m.jpg"
   },
   {
     "id": 2756047,
     "title": "למה כל כך חשוב לעשות טיפול פנים? - כרמית אסולין קוסמטיקה מתקדמת בקרית חיים עם התשובה",
     "date": "30/06/2025 07:21:37",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1751257303/production/users/12148/campaign/2756047_4129febd-0a99-4bbf-bf64-df2d4d31ea5b.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "למה כל כך חשוב לעשות טיפול פנים? — כרמית אסולין",
+    "description": "למה כל כך חשוב לעשות טיפול פנים? - — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-06-30T07:21:37+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1751257303/production/users/12148/campaign/2756047_4129febd-0a99-4bbf-bf64-df2d4d31ea5b.jpg"
   },
   {
     "id": 2741679,
@@ -173,14 +261,22 @@ window.BLOG_POSTS = [
     "date": "21/06/2025 08:26:41",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/ljy0pq.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_34.1,eo_39.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_34.1,eo_39.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_34.1,eo_39.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_34.1,eo_39.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/ljy0pq.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_34.1,eo_39.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_34.1,eo_39.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_34.1,eo_39.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_34.1,eo_39.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/ljy0pq.mp4",
+    "seoTitle": "טיפולי פנים- טיפים לטיפול בשחורים מ — כרמית אסולין",
+    "description": "טיפולי פנים- טיפים לטיפול בשחורים מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-06-21T08:26:41+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/ljy0pq.jpg"
   },
   {
     "id": 2721119,
     "title": "מזותרפיה להצערת עור הפנים אצל כרמית אסולין קוסמטיקה מתקדמת בקרית חיים",
     "date": "08/06/2025 10:10:16",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1749366621/production/users/12148/campaign/2721119_d3f15012-c6f8-4bda-9c60-8b9f861d9418.jpg",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "מזותרפיה להצערת עור הפנים אצל — כרמית אסולין",
+    "description": "מזותרפיה להצערת עור הפנים אצל — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-06-08T10:10:16+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1749366621/production/users/12148/campaign/2721119_d3f15012-c6f8-4bda-9c60-8b9f861d9418.jpg"
   },
   {
     "id": 2712613,
@@ -188,7 +284,11 @@ window.BLOG_POSTS = [
     "date": "31/05/2025 09:00:14",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.3,eo_33.3,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_28.3,eo_33.3,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_28.3,eo_33.3,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_28.3,eo_33.3,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.3,eo_33.3,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_28.3,eo_33.3,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_28.3,eo_33.3,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_28.3,eo_33.3,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.mp4",
+    "seoTitle": "טיפול פנים - חג שמח - תשקיעי בפנים שלך — כרמית אסולין",
+    "description": "טיפול פנים - חג שמח - תשקיעי בפנים שלך — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-05-31T09:00:14+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.jpg"
   },
   {
     "id": 2690055,
@@ -196,7 +296,11 @@ window.BLOG_POSTS = [
     "date": "18/05/2025 21:00:03",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_22.5,eo_27.1,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_22.5,eo_27.1,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_22.5,eo_27.1,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_22.5,eo_27.1,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_22.5,eo_27.1,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_22.5,eo_27.1,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_22.5,eo_27.1,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_22.5,eo_27.1,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.mp4",
+    "seoTitle": "יופי - היום שלך מלא — כרמית אסולין",
+    "description": "יופי - היום שלך מלא — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-05-18T21:00:03+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.jpg"
   },
   {
     "id": 2685606,
@@ -204,7 +308,11 @@ window.BLOG_POSTS = [
     "date": "16/05/2025 09:00:56",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/mazotherapy1-23820_adwgjg.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_24.7,eo_31.4,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_24.7,eo_31.4,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_24.7,eo_31.4,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_24.7,eo_31.4,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_w/mazotherapy1-23820_adwgjg.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_24.7,eo_31.4,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_24.7,eo_31.4,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_24.7,eo_31.4,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_24.7,eo_31.4,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_w/mazotherapy1-23820_adwgjg.mp4",
+    "seoTitle": "טיפולי פנים מזותרפיה -רוצה לטפל בדברים — כרמית אסולין",
+    "description": "טיפולי פנים מזותרפיה -רוצה לטפל בדברים שמציקים בפנים? — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-05-16T09:00:56+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/mazotherapy1-23820_adwgjg.jpg"
   },
   {
     "id": 2658912,
@@ -212,7 +320,11 @@ window.BLOG_POSTS = [
     "date": "28/04/2025 09:00:55",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/v1594112527/iyydqj.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_18.1,eo_22.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_18.1,eo_22.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_18.1,eo_22.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_18.1,eo_22.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1594112527/iyydqj.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_18.1,eo_22.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_18.1,eo_22.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_18.1,eo_22.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_18.1,eo_22.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1594112527/iyydqj.mp4",
+    "seoTitle": "טיפולי יופי מתקדמים- בואו לטיפול בצלקות — כרמית אסולין",
+    "description": "טיפולי יופי מתקדמים- בואו לטיפול בצלקות הפנים אצל — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-04-28T09:00:55+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1594112527/iyydqj.jpg"
   },
   {
     "id": 2656504,
@@ -220,7 +332,11 @@ window.BLOG_POSTS = [
     "date": "21/04/2025 06:23:35",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/lizjad.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_32.1,eo_38.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_32.1,eo_38.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/lizjad.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_32.1,eo_38.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_0,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_130,so_32.1,eo_38.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%91%d7%a7%d7%a8%d7%99%d7%aa%20%d7%97%d7%99%d7%99%d7%9d,g_center,y_190,so_32.1,eo_38.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/lizjad.mp4",
+    "seoTitle": "אקנה - ניסיתם תקופות סבתא ולא עובד כלום? — כרמית אסולין",
+    "description": "אקנה - ניסיתם תקופות סבתא ולא עובד כלום? קבלו טיפים מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-04-21T06:23:35+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/lizjad.jpg"
   },
   {
     "id": 2626094,
@@ -228,7 +344,11 @@ window.BLOG_POSTS = [
     "date": "12/04/2025 07:23:06",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/pesah4-14321_vcrpkg.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_70_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%97%d7%99%d7%a4%d7%94,g_center,y_0,so_24.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_70_bold:052-4677347,g_center,y_70,so_24.7,eo_28.8,co_black/l_text:rubik_70_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_24.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_190,so_24.7,eo_28.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/pesah4-14321_vcrpkg.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_70_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%97%d7%99%d7%a4%d7%94,g_center,y_0,so_24.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_70_bold:052-4677347,g_center,y_70,so_24.7,eo_28.8,co_black/l_text:rubik_70_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_24.7,eo_28.8,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_190,so_24.7,eo_28.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/pesah4-14321_vcrpkg.mp4",
+    "seoTitle": "פסח- פסח מלא קסם ויופי מכרמית אסולין — כרמית אסולין",
+    "description": "פסח- פסח מלא קסם ויופי מכרמית אסולין קוסמטיקה מתקדמת בחיפה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-04-12T07:23:06+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/pesah4-14321_vcrpkg.jpg"
   },
   {
     "id": 2605222,
@@ -236,21 +356,33 @@ window.BLOG_POSTS = [
     "date": "27/03/2025 13:49:27",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/summer-10321_zedp9q.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%97%d7%99%d7%a4%d7%94,g_center,y_0,so_20.7,eo_25.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_20.7,eo_25.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_20.7,eo_25.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_190,so_20.7,eo_25.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/summer-10321_zedp9q.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa%20%d7%91%d7%97%d7%99%d7%a4%d7%94,g_center,y_0,so_20.7,eo_25.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_20.7,eo_25.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_20.7,eo_25.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa%20%7c%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%90%d7%99%d7%aa%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_190,so_20.7,eo_25.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/summer-10321_zedp9q.mp4",
+    "seoTitle": "שעון קיץ- כשחם בחוץ, חם בלב! קיץ שמח מכרמית — כרמית אסולין",
+    "description": "שעון קיץ- כשחם בחוץ, חם בלב! קיץ שמח מכרמית אסולין קוסמטיקה מתקדמת בחיפה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-03-27T13:49:27+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/summer-10321_zedp9q.jpg"
   },
   {
     "id": 2579787,
     "title": "עדין לא היית בטיפול פנים מקצועי אצל כרמית אסולין קוסמטיקה מתקדמת? כדאי שתדעי 5 עובדות חשובות",
     "date": "09/03/2025 06:44:00",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1741495450/production/users/12148/campaign/2579787_ff4734eb-38c5-4bcf-bf85-6dd4b9b2afac.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "עדין לא היית בטיפול פנים מקצועי אצל כרמית — כרמית אסולין",
+    "description": "עדין לא היית בטיפול פנים מקצועי אצל כרמית אסולין קוסמטיקה מתקדמת? כדאי שתדעי 5 עובדות חשובות — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-03-09T06:44:00+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1741495450/production/users/12148/campaign/2579787_ff4734eb-38c5-4bcf-bf85-6dd4b9b2afac.png"
   },
   {
     "id": 2577805,
     "title": "שיגרת בוקר לטיפוח מושלם! טיפים לשימוש מכרמית אסולין קוסמטיקה מתקדמת",
     "date": "07/03/2025 09:00:52",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1741235377/production/users/12148/campaign/2577805_c03a6089-386b-4877-a271-b0e254aabaaf.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "שיגרת בוקר לטיפוח מושלם! טיפים לשימוש מכרמית — כרמית אסולין",
+    "description": "שיגרת בוקר לטיפוח מושלם! טיפים לשימוש מכרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-03-07T09:00:52+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1741235377/production/users/12148/campaign/2577805_c03a6089-386b-4877-a271-b0e254aabaaf.png"
   },
   {
     "id": 2579497,
@@ -258,7 +390,11 @@ window.BLOG_POSTS = [
     "date": "07/03/2025 06:54:54",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/face2-27521_jtjaxa.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_28.5,eo_31.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.5,eo_31.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_28.5,eo_31.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_28.5,eo_31.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/face2-27521_jtjaxa.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_28.5,eo_31.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.5,eo_31.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_28.5,eo_31.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_28.5,eo_31.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/face2-27521_jtjaxa.mp4",
+    "seoTitle": "טיפול פנים- עונות השנה משפיעות על עור הפנים — כרמית אסולין",
+    "description": "טיפול פנים- עונות השנה משפיעות על עור הפנים, טיפול פנים בכרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-03-07T06:54:54+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/face2-27521_jtjaxa.jpg"
   },
   {
     "id": 2560804,
@@ -266,7 +402,11 @@ window.BLOG_POSTS = [
     "date": "28/02/2025 12:27:07",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.6,eo_33.1,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_28.6,eo_33.1,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_28.6,eo_33.1,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_28.6,eo_33.1,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_28.6,eo_33.1,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_28.6,eo_33.1,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_28.6,eo_33.1,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_28.6,eo_33.1,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.mp4",
+    "seoTitle": "טיפולי פנים יום האם - את דואגת להם מהרגע — כרמית אסולין",
+    "description": "טיפולי פנים יום האם - את דואגת להם מהרגע הראשון — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-02-28T12:27:07+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.jpg"
   },
   {
     "id": 2491373,
@@ -274,7 +414,11 @@ window.BLOG_POSTS = [
     "date": "03/01/2025 21:00:15",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/fpug3x0llnbwmcqqrdvg.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_10,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_24.5,eo_31,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_24.5,eo_31,w_700,c_limit,co_rgb:322626/l_text:rubik_35_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_24.5,eo_31,w_700,c_limit,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/fpug3x0llnbwmcqqrdvg.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_west,y_10,x_20,w_200,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_24.5,eo_31,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_24.5,eo_31,w_700,c_limit,co_rgb:322626/l_text:rubik_35_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_24.5,eo_31,w_700,c_limit,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/fpug3x0llnbwmcqqrdvg.mp4",
+    "seoTitle": "טיפול פנים - רוצה לשמור על עורך צעיר ורענן — כרמית אסולין",
+    "description": "טיפול פנים - רוצה לשמור על עורך צעיר ורענן — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-01-03T21:00:15+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/fpug3x0llnbwmcqqrdvg.jpg"
   },
   {
     "id": 2494877,
@@ -282,35 +426,55 @@ window.BLOG_POSTS = [
     "date": "03/01/2025 16:50:01",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/v1594112527/dl0zhb.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_23.1,eo_29.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_23.1,eo_29.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1594112527/dl0zhb.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_23.1,eo_29.1,co_black/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_23.1,eo_29.1,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_23.1,eo_29.1,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/v1594112527/dl0zhb.mp4",
+    "seoTitle": "טיפולי פנים מתקדמים- היראות צעירה יותר עם — כרמית אסולין",
+    "description": "טיפולי פנים מתקדמים- היראות צעירה יותר עם טיפול אנטי אייג׳ינג בכרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2025-01-03T16:50:01+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1594112527/dl0zhb.jpg"
   },
   {
     "id": 2490587,
     "title": "הילד סובל מפצעי בגרות? כרמית אסולין קוסמטיקה מתקדמת",
     "date": "31/12/2024 14:00:42",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1735646450/production/users/12148/campaign/2490587_ef3da6c7-f6e8-4dd8-a860-d6ffa2dcbd03.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "הילד סובל מפצעי בגרות? — כרמית אסולין",
+    "description": "הילד סובל מפצעי בגרות? כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-12-31T14:00:42+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1735646450/production/users/12148/campaign/2490587_ef3da6c7-f6e8-4dd8-a860-d6ffa2dcbd03.png"
   },
   {
     "id": 2476785,
     "title": "העונג כולו שלי! כרמית אסולין קוסמטיקה מתקדמת",
     "date": "22/12/2024 07:54:41",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1734846889/production/users/12148/campaign/2476785_8f2452cd-1727-49a6-94a4-26f44d1be1ad.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "העונג כולו שלי! כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין",
+    "description": "העונג כולו שלי! כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-12-22T07:54:41+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1734846889/production/users/12148/campaign/2476785_8f2452cd-1727-49a6-94a4-26f44d1be1ad.png"
   },
   {
     "id": 2476648,
     "title": "5 טיפים לשמירה על עור הפנים בגיל ההתבגרות כרמית אסולין קוסמטיקה מתקדמת",
     "date": "21/12/2024 02:36:39",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1734741407/production/users/12148/campaign/2476648_683ad56a-ec74-4ea5-88d1-a48fd5cfc41d.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "5 טיפים לשמירה על עור הפנים בגיל ההתבגרות — כרמית אסולין",
+    "description": "5 טיפים לשמירה על עור הפנים בגיל ההתבגרות כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-12-21T02:36:39+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1734741407/production/users/12148/campaign/2476648_683ad56a-ec74-4ea5-88d1-a48fd5cfc41d.png"
   },
   {
     "id": 2471198,
     "title": "מיקרו-נידלינג להצערת עור הפנים אצל כרמית אסולין קוסמטיקה מתקדמת",
     "date": "17/12/2024 06:31:05",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1734409874/production/users/12148/campaign/2471198_e36cadac-eacd-4aed-b56a-c36d148da02d.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "מיקרו-נידלינג להצערת עור הפנים אצל כרמית — כרמית אסולין",
+    "description": "מיקרו-נידלינג להצערת עור הפנים אצל כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-12-17T06:31:05+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1734409874/production/users/12148/campaign/2471198_e36cadac-eacd-4aed-b56a-c36d148da02d.png"
   },
   {
     "id": 2445932,
@@ -318,21 +482,33 @@ window.BLOG_POSTS = [
     "date": "28/11/2024 05:14:23",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/xfzrou.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_23.2,eo_27.8,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_23.2,eo_27.8,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_23.2,eo_27.8,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_23.2,eo_27.8,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/xfzrou.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_23.2,eo_27.8,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_23.2,eo_27.8,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_23.2,eo_27.8,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_23.2,eo_27.8,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/xfzrou.mp4",
+    "seoTitle": "טיפולי פנים - זה הזמן להחזיר את החיוך לפנים — כרמית אסולין",
+    "description": "טיפולי פנים - זה הזמן להחזיר את החיוך לפנים שלך — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-11-28T05:14:23+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/xfzrou.jpg"
   },
   {
     "id": 2436645,
     "title": "אפילציה חשמלית' טכנולוגיה חדשנית להסרת שיער - כרמית אסולין קוסמטיקה מתקדמת",
     "date": "21/11/2024 14:00:00",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1732181455/production/users/12148/campaign/2436645_b65a74a7-769d-4fd0-993e-b5c71d3899aa.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "אפילציה חשמלית' טכנולוגיה חדשנית להסרת שיער — כרמית אסולין",
+    "description": "אפילציה חשמלית' טכנולוגיה חדשנית להסרת שיער - כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-11-21T14:00:00+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1732181455/production/users/12148/campaign/2436645_b65a74a7-769d-4fd0-993e-b5c71d3899aa.png"
   },
   {
     "id": 2430257,
     "title": "7 עצות לטיפול באקנה כרמית אסולין קוסמטיקה מתקדמת",
     "date": "18/11/2024 06:59:53",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1731906002/production/users/12148/campaign/2430257_277d1ba0-2fbc-4ea2-b850-be6bc00f82da.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "7 עצות לטיפול באקנה כרמית אסולין קוסמטיקה — כרמית אסולין",
+    "description": "7 עצות לטיפול באקנה כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-11-18T06:59:53+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1731906002/production/users/12148/campaign/2430257_277d1ba0-2fbc-4ea2-b850-be6bc00f82da.png"
   },
   {
     "id": 2428392,
@@ -340,7 +516,11 @@ window.BLOG_POSTS = [
     "date": "17/11/2024 08:22:48",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/face-24521_hfacwu.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_21.5,eo_25.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_21.5,eo_25.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_21.5,eo_25.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_21.5,eo_25.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/face-24521_hfacwu.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_21.5,eo_25.8,w_700,c_limit,co_black/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_21.5,eo_25.8,co_black/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_21.5,eo_25.8,w_700,c_limit,co_black/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_21.5,eo_25.8,co_black/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/face-24521_hfacwu.mp4",
+    "seoTitle": "רוצה להוסיף ברק וחיוניות לעור הפנים? — כרמית אסולין",
+    "description": "רוצה להוסיף ברק וחיוניות לעור הפנים? כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-11-17T08:22:48+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/face-24521_hfacwu.jpg"
   },
   {
     "id": 2415504,
@@ -348,13 +528,21 @@ window.BLOG_POSTS = [
     "date": "06/11/2024 16:41:19",
     "image": "https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.jpg",
     "type": "video",
-    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_26.5,eo_31.1,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_26.5,eo_31.1,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_26.5,eo_31.1,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_26.5,eo_31.1,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.mp4"
+    "video": "https://res.cloudinary.com/broadcust/video/upload/c_limit,g_north_east,y_30,x_20,w_160,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1,eo_98p/l_text:rubik_50_bold:052-4677347,g_center,y_70,so_26.5,eo_31.1,co_rgb:322626/l_text:rubik_50_bold:%d7%9b%d7%a8%d7%9e%d7%99%d7%aa%20%d7%90%d7%a1%d7%95%d7%9c%d7%99%d7%9f%20%d7%a7%d7%95%d7%a1%d7%9e%d7%98%d7%99%d7%a7%d7%94%20%d7%9e%d7%aa%d7%a7%d7%93%d7%9e%d7%aa,g_center,y_0,so_26.5,eo_31.1,w_700,c_limit,co_rgb:322626/l_text:rubik_50_bold:%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d%2039%252c%20%d7%97%d7%99%d7%a4%d7%94,g_center,y_130,so_26.5,eo_31.1,w_700,c_limit,co_rgb:322626/l_text:rubik_30_bold:%d7%94%d7%99%d7%95%d7%a4%d7%99%20%d7%a9%d7%9c%d7%9a%20%d7%91%d7%99%d7%93%d7%99%d7%9d%20%d7%98%d7%95%d7%91%d7%95%d7%aa,g_center,y_190,so_26.5,eo_31.1,co_rgb:322626/c_limit,g_center,so_98p,w_500,l_v1706174206:production:users:12148:logo:d0efa39d-d056-4105-9285-88e6eddfcca1/t_credit_98p_b/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.mp4",
+    "seoTitle": "עיצוב גבות - הגבות שלך הם המסגרת — כרמית אסולין",
+    "description": "עיצוב גבות - הגבות שלך הם המסגרת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-11-06T16:41:19+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.jpg"
   },
   {
     "id": 2398696,
     "title": "הצערת העור בשיטת RF אצל כרמית אסולין קוסמטיקה מתקדמת",
     "date": "29/10/2024 09:00:16",
     "image": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1729865839/production/users/12148/campaign/2398696_94a31864-710c-417e-8ff0-fae771db8cd8.png",
-    "type": "article"
+    "type": "article",
+    "seoTitle": "הצערת העור בשיטת RF אצל כרמית אסולין — כרמית אסולין",
+    "description": "הצערת העור בשיטת RF אצל כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
+    "datePublished": "2024-10-29T09:00:16+02:00",
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1729865839/production/users/12148/campaign/2398696_94a31864-710c-417e-8ff0-fae771db8cd8.png"
   }
 ];

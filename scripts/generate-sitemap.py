@@ -5,15 +5,17 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from datetime import date
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-BLOG_POSTS = ROOT / "js" / "blog-posts.js"
-SITEMAP = ROOT / "sitemap.xml"
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
 
-# Update when deploying to GitHub Pages or a custom domain.
-BASE_URL = "https://YOUR_GITHUB_USERNAME.github.io/carmit-cosmetics"
+from seo_config import BASE_URL  # noqa: E402
+
+BLOG_POSTS = ROOT.parent / "js" / "blog-posts.js"
+SITEMAP = ROOT.parent / "sitemap.xml"
 
 
 def load_post_ids() -> list[int]:
@@ -43,7 +45,9 @@ def main() -> None:
         url_entry(f"{base}/privacy.html", changefreq="yearly", priority="0.3"),
     ]
     for post_id in load_post_ids():
-        entries.append(url_entry(f"{base}/post.html?id={post_id}", changefreq="monthly", priority="0.6"))
+        entries.append(
+            url_entry(f"{base}/post/{post_id}.html", changefreq="monthly", priority="0.6")
+        )
 
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'

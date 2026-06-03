@@ -27,6 +27,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Generate post pages and sitemap
+        run: |
+          python3 scripts/enrich-blog-posts.py
+          python3 scripts/generate-post-pages.py
+          python3 scripts/generate-sitemap.py
+
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:

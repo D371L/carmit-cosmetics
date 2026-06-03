@@ -66,7 +66,7 @@
     const fetchPriority = eager ? ' fetchpriority="high"' : '';
     return `
       <article class="blog-card">
-        <a class="blog-card-link" href="post.html?id=${post.id}">
+        <a class="blog-card-link" href="post/${post.id}.html">
           <div class="blog-card-media">
             <img src="${escapeHtml(postThumb(post))}" alt="" loading="${loading}" decoding="async"${fetchPriority}>
             ${badge}

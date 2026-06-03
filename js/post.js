@@ -2,9 +2,23 @@
   'use strict';
 
   const params = new URLSearchParams(window.location.search);
-  const id = params.get('id');
+  const legacyId = params.get('id');
+  if (legacyId && /\/post\.html$/i.test(window.location.pathname)) {
+    window.location.replace(`post/${legacyId}.html`);
+    return;
+  }
+
+  function resolvePostId() {
+    if (window.POST_ID) return String(window.POST_ID);
+    const fromPath = window.location.pathname.match(/\/post\/(\d+)\.html$/);
+    if (fromPath) return fromPath[1];
+    return params.get('id');
+  }
+
+  const id = resolvePostId();
   const posts = window.BLOG_POSTS || [];
   const meta = posts.find((p) => String(p.id) === String(id));
+  const isStaticPostPage = /\/post\/\d+\.html$/i.test(window.location.pathname);
 
   const titleEl = document.getElementById('postTitle');
   const dateEl = document.getElementById('postDate');
@@ -12,33 +26,38 @@
   const loadingEl = document.getElementById('postLoading');
   const errorEl = document.getElementById('postError');
 
-  const SITE_BASE = 'https://YOUR_GITHUB_USERNAME.github.io/carmit-cosmetics';
+  const cfg = window.SITE_CONFIG || {};
+  const SITE_BASE = (cfg.baseUrl || 'https://d371l.github.io/carmit-cosmetics').replace(/\/$/, '');
 
-  function ogImageUrl(imageUrl) {
-    if (!imageUrl) return `${SITE_BASE}/`;
-    if (imageUrl.includes('/video/upload/')) {
-      const path = cloudinaryDeliveryPath(imageUrl);
+  function ogImageUrl(imageUrl, videoUrl) {
+    if (meta && meta.ogImage) return meta.ogImage;
+    const source = imageUrl || videoUrl;
+    if (!source) return cfg.defaultOgImage || cfg.ogImage || '';
+    if (source.includes('/video/upload/')) {
+      const path = cloudinaryDeliveryPath(source);
       if (path) {
         return `https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg,so_0/${path.replace(/\.mp4$/i, '.jpg')}`;
       }
     }
-    if (imageUrl.includes('/image/upload/')) {
+    if (source.includes('/image/upload/')) {
       const marker = '/image/upload/';
-      const idx = imageUrl.indexOf(marker);
-      const rest = imageUrl.slice(idx + marker.length);
+      const idx = source.indexOf(marker);
+      const rest = source.slice(idx + marker.length);
       const parts = rest.split('/');
       const filename = parts[parts.length - 1];
       const folders = parts.slice(0, -1).filter((p) => !isTransformSegment(p));
       return `https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/${[...folders, filename].join('/')}`;
     }
-    return imageUrl;
+    return source;
   }
 
   function updatePageMeta(post) {
-    const title = `${post.title} — כרמית אסולין קוסמטיקה`;
-    const desc = post.title.slice(0, 160);
-    const url = `${SITE_BASE}/post.html?id=${post.id}`;
-    const image = ogImageUrl(post.image || post.video);
+    if (isStaticPostPage) return;
+
+    const title = post.seoTitle || `${post.title} — כרמית אסולין קוסמטיקה`;
+    const desc = post.description || post.title.slice(0, 160);
+    const url = `${SITE_BASE}/post/${post.id}.html`;
+    const image = ogImageUrl(post.image, post.video);
 
     document.title = title;
     const set = (id, attr, value) => {
@@ -52,6 +71,8 @@
     set('ogDescription', 'content', desc);
     set('ogUrl', 'content', url);
     set('ogImage', 'content', image);
+    set('ogImageSecure', 'content', image);
+    set('ogImageAlt', 'content', title);
     set('twitterTitle', 'content', title);
     set('twitterDescription', 'content', desc);
     set('twitterImage', 'content', image);
@@ -94,7 +115,11 @@
   function renderVideo(post) {
     if (loadingEl) loadingEl.hidden = true;
     if (titleEl) titleEl.textContent = post.title;
-    if (dateEl) dateEl.textContent = post.date ? `פורסם בתאריך: ${post.date.split(' ')[0]} ${(post.date.split(' ')[1] || '').slice(0, 5)}` : '';
+    if (dateEl) {
+      dateEl.textContent = post.date
+        ? `פורסם בתאריך: ${post.date.split(' ')[0]} ${(post.date.split(' ')[1] || '').slice(0, 5)}`
+        : '';
+    }
     if (!bodyEl) return;
     bodyEl.innerHTML = `
       <div class="post-video-wrap">
