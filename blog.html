@@ -22,11 +22,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&family=Heebo:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/a11y.css">
 </head>
 <body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Ambient background glows for desktop -->
+  <div class="ambient-glows" aria-hidden="true">
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+  </div>
+
   <div class="app app--blog-all">
     <header class="post-header">
       <a href="index.html#blog" class="post-back">
@@ -60,9 +71,16 @@
     <a href="https://wa.me/972524677347" class="fab-whatsapp" target="_blank" rel="noopener" aria-label="ווטסאפ">
       <i class="fab fa-whatsapp"></i>
     </a>
+
+    <button type="button" class="fab-scroll-top" id="scrollTopBtn" aria-label="חזרה למעלה">
+      <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
   </div>
 
+  <script src="js/scroll-progress.js"></script>
+  <script src="js/scroll-top.js"></script>
   <script src="js/blog-posts.js"></script>
   <script src="js/blog.js"></script>
+  <script src="js/a11y-widget.js"></script>
 </body>
 </html>

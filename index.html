@@ -34,18 +34,29 @@
       "addressLocality": "קרית חיים",
       "addressCountry": "IL"
     },
-    "sameAs": ["https://www.facebook.com/"]
+    "sameAs": ["https://www.facebook.com/101576059040639"]
   }
   </script>
   <link rel="icon" href="https://res.cloudinary.com/broadcust/image/upload/c_scale,h_200/v1706174206/production/users/12148/logo/d0efa39d-d056-4105-9285-88e6eddfcca1.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&family=Heebo:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/a11y.css">
 </head>
 <body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Ambient background glows for desktop -->
+  <div class="ambient-glows" aria-hidden="true">
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+  </div>
+
   <a href="#main" class="skip-link">דלג לתוכן הראשי</a>
 
   <div class="app">
@@ -68,10 +79,12 @@
         >
       </div>
       <div class="hero-text">
-        <h1 class="hero-name">כרמית אסולין</h1>
+        <h1 class="hero-name">
+          <span class="hero-name-main">כרמית אסולין</span>
+          <span class="hero-name-sub">קוסמטיקה מתקדמת בקרית חיים</span>
+        </h1>
         <p class="tagline">
           <span class="tagline-line">היופי שלך בידים טובות</span>
-          <span class="tagline-line">קוסמטיקה מתקדמת בקרית חיים</span>
         </p>
       </div>
     </header>
@@ -158,7 +171,7 @@
 
     <main id="main">
       <!-- About -->
-      <section class="service-card about" id="about">
+      <section class="service-card about reveal" id="about">
         <div class="card-bg" style="background-image: url('https://res.cloudinary.com/broadcust/image/upload/c_limit,w_700,h_400/v1636024351/production/gallery/344df17a-2da0-4786-8111-8fdea19c56d6__114740.png')"></div>
         <div class="card-content">
           <img
@@ -175,7 +188,7 @@
       </section>
 
       <!-- Face treatments -->
-      <section class="service-card dark">
+      <section class="service-card dark reveal">
         <div class="card-bg" style="background-image: url('https://res.cloudinary.com/broadcust/image/upload/c_limit,w_700,h_400/v1636024443/production/gallery/90316481-9ff1-4123-bdb8-ddd7d094e79c__114765.png')"></div>
         <div class="card-content">
           <img class="icon" src="https://res.cloudinary.com/broadcust/image/upload/e_colorize,co_rgb:ffffff/c_limit,w_120/v1703422824/production/users/12148/gallery/cbef4f42-dae7-4032-b062-3daa64b5966d__184120.png" alt="" loading="lazy">
@@ -191,7 +204,7 @@
       </section>
 
       <!-- Phototherapy -->
-      <section class="service-card dark">
+      <section class="service-card dark reveal">
         <div class="card-bg" style="background-image: url('https://res.cloudinary.com/broadcust/image/upload/c_limit,w_700,h_400/v1636024406/production/gallery/ef828492-02c5-4f22-8bcf-9a60521a543c__114753.png')"></div>
         <div class="card-content">
           <img class="icon" src="https://res.cloudinary.com/broadcust/image/upload/e_colorize,co_rgb:ffffff/c_limit,w_120/v1703422806/production/users/12148/gallery/db17f901-7368-4e0f-9d98-8709c65844b6__184118.png" alt="" loading="lazy">
@@ -201,7 +214,7 @@
       </section>
 
       <!-- Anti-aging -->
-      <section class="service-card dark">
+      <section class="service-card dark reveal">
         <div class="card-bg" style="background-image: url('https://res.cloudinary.com/broadcust/image/upload/c_limit,w_700,h_400/v1636024213/production/gallery/ea5befb9-c087-4903-affe-a283bf619e4f__114701.png')"></div>
         <div class="card-content">
           <img class="icon" src="https://res.cloudinary.com/broadcust/image/upload/e_colorize,co_rgb:ffffff/c_limit,w_120/v1703422815/production/users/12148/gallery/6c7667da-402a-4706-83e5-841dac242c35__184119.png" alt="" loading="lazy">
@@ -212,7 +225,7 @@
       </section>
 
       <!-- Mesotherapy -->
-      <section class="service-card dark">
+      <section class="service-card dark reveal">
         <div class="card-bg" style="background-image: url('https://res.cloudinary.com/broadcust/image/upload/c_limit,w_700,h_400/v1636023907/production/gallery/633ab9e5-198b-4f4f-8e0f-4006c6748248__114608.png')"></div>
         <div class="card-content">
           <img class="icon" src="https://res.cloudinary.com/broadcust/image/upload/e_colorize,co_rgb:ffffff/c_limit,w_120/v1703422788/production/users/12148/gallery/d5a1ee38-e0fb-4d0c-9a80-4ac3c9d5c825__184116.png" alt="" loading="lazy">
@@ -223,7 +236,7 @@
       </section>
 
       <!-- Reviews -->
-      <section class="reviews">
+      <section class="reviews reveal">
         <h2>שמחה לשתף בביקורות שקיבלתי</h2>
         <blockquote>
           <p>לקוחות מרוצים ממליצים על הטיפולים המקצועיים והתוצאות המדהימות.</p>
@@ -234,7 +247,7 @@
       </section>
 
       <!-- Appointment CTA -->
-      <section class="appointment">
+      <section class="appointment reveal">
         <h2>לתיאום תור:</h2>
         <a href="tel:0524677347" class="appointment-phone">
           <img
@@ -249,14 +262,14 @@
       </section>
 
       <!-- Blog -->
-      <section class="blog" id="blog">
+      <section class="blog reveal" id="blog">
         <h2>בלוג ופרסומים מקצועיים</h2>
         <div class="blog-grid" id="blogList"></div>
         <a href="blog.html" class="btn-secondary btn-secondary--link" id="showAllBlog">לצפייה בכל הפרסומים</a>
       </section>
 
       <!-- Gallery -->
-      <section class="gallery" id="gallery">
+      <section class="gallery reveal" id="gallery">
         <h2>תמונות</h2>
         <div class="gallery-carousel" aria-label="גלריית תמונות">
           <div class="gallery-carousel__track" id="galleryImagesTrack"></div>
@@ -268,7 +281,7 @@
       </section>
 
       <!-- Contact -->
-      <section class="contact" id="contact">
+      <section class="contact reveal" id="contact">
         <h2>כרמית אסולין</h2>
         <p class="contact-tagline">קוסמטיקה מתקדמת בקרית חיים</p>
         <div class="contact-card">
@@ -276,9 +289,13 @@
           <p><a href="mailto:carmit150@gmail.com"><i class="fas fa-envelope"></i> carmit150@gmail.com</a></p>
           <p><i class="fas fa-map-marker-alt"></i> הראשונים 39 קרית חיים</p>
           <p class="contact-nav">
-            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99%D7%9D+39%2C+%D7%A7%D7%A8%D7%99%D7%AA+%D7%97%D7%99%D7%99%D7%9D" class="btn-navigate" target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-              נווט אלינו
+            <a href="#" id="mapsLink" class="btn-google-maps" target="_blank" rel="noopener noreferrer" aria-label="Google Maps">
+              <i class="fab fa-google" aria-hidden="true"></i>
+              G Maps
+            </a>
+            <a href="#" id="wazeLink" class="btn-waze" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-waze" aria-hidden="true"></i>
+              Waze
             </a>
           </p>
         </div>
@@ -317,17 +334,22 @@
   </div>
 
   <div class="media-lightbox" id="mediaLightbox" hidden role="dialog" aria-modal="true" aria-label="תצוגה מוגדלת">
+    <div class="media-lightbox__stage"></div>
     <button type="button" class="media-lightbox__close" aria-label="סגירה">&times;</button>
     <button type="button" class="media-lightbox__prev" aria-label="הקודם"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
     <button type="button" class="media-lightbox__next" aria-label="הבא"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
     <p class="media-lightbox__counter" aria-live="polite"></p>
-    <div class="media-lightbox__stage"></div>
   </div>
 
+  <script src="js/site-config.js"></script>
+  <script src="js/contact-nav.js"></script>
   <script src="js/gallery-data.js"></script>
   <script src="js/gallery.js"></script>
   <script src="js/blog-posts.js"></script>
   <script src="js/blog.js"></script>
+  <script src="js/scroll-progress.js"></script>
+  <script src="js/scroll-top.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/a11y-widget.js"></script>
 </body>
 </html>

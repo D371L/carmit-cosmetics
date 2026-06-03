@@ -66,13 +66,15 @@
 
     if (activeGroup === 'videos') {
       stage.innerHTML = `
-        <video class="media-lightbox__video" controls playsinline preload="metadata" poster="${escapeAttr(item.poster)}">
+        <video class="media-lightbox__video" controls playsinline preload="metadata" poster="${escapeAttr(item.poster)}" aria-label="${escapeAttr(item.alt)}">
           <source src="${escapeAttr(item.src)}" type="video/mp4">
         </video>`;
       activeVideo = stage.querySelector('video');
     } else {
       stage.innerHTML = `<img class="media-lightbox__image" src="${escapeAttr(item.full)}" alt="${escapeAttr(item.alt)}">`;
     }
+
+    lightbox.setAttribute('aria-label', item.alt || 'תצוגה מוגדלת');
 
     if (counter) {
       counter.textContent = `${activeIndex + 1} / ${items.length}`;

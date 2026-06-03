@@ -9,10 +9,15 @@ index.html          — דף ראשי (3 פרסומים אחרונים)
 blog.html           — כל הפרסומים + כפתור חזרה
 post.html           — עמוד פרסום בודד
 css/styles.css      — עיצוב mobile-first (עמודה 500px)
-js/main.js          — מועדון לקוחות, scroll-to-top
+js/main.js          — מועדון לקוחות (modal → WhatsApp)
+js/site-config.js   — קבועי SEO, כתובת, קישורי ניווט (Google Maps + Waze)
+js/contact-nav.js   — מילוי קישורי ניווט מ-SITE_CONFIG
+js/scroll-progress.js — פס התקדמות גלילה (index, blog, post)
+js/scroll-top.js    — כפתור חזרה למעלה
+css/a11y.css        — תפריט נגישות (עיצוב)
+js/a11y-widget.js   — תפריט נגישות (לוגיקה, localStorage)
 js/gallery-data.js  — נתוני גלריה (תמונות + סרטונים)
 js/gallery.js       — קרוסלה + lightbox
-js/site-config.js   — קבועי SEO (base URL)
 js/blog-posts.js    — נתוני בלוג (מ-Broadcust)
 js/blog.js          — רינדור כרטיסי בלוג
 js/post.js          — טעינת פרסום בודד + meta דינמי
@@ -42,7 +47,7 @@ python3 -m http.server 8080
 3. דחפו ל-`main` — workflow `.github/workflows/deploy-pages.yml` יפרוס אוטומטית.
 4. **עדכנו את כתובת הבסיס** (חיפוש/החלפה בכל הפרויקט):
    - `YOUR_GITHUB_USERNAME.github.io/carmit-cosmetics` → ה-URL האמיתי שלכם
-   - קבצים: `index.html`, `blog.html`, `post.html`, `accessibility.html`, `privacy.html`, `robots.txt`, `scripts/generate-sitemap.py`, `js/post.js`
+   - קבצים: `index.html`, `blog.html`, `post.html`, `accessibility.html`, `privacy.html`, `robots.txt`, `scripts/generate-sitemap.py`, `js/post.js`, `js/site-config.js`
 5. הריצו `python3 scripts/generate-sitemap.py` ו-commit ל-`sitemap.xml`.
 6. **דומיין מותאם (אופציונלי):** הוסיפו `CNAME` בשורש הריפo, הגדירו ב-Pages → Custom domain, והחליפו את base URL בדומיין שלכם.
 
@@ -50,7 +55,8 @@ python3 -m http.server 8080
 
 - תמונות וסרטונים נטענים מ-Cloudinary (כמו באתר המקורי).
 - **בלוג:** לעדכון `python3 scripts/fetch-blog-posts.py` ואז `python3 scripts/generate-sitemap.py`.
-- **גלריה:** ערכו `js/gallery-data.js` להוספת תמונות/סרטונים.
+- **גלריה:** ערכו `js/gallery-data.js` — כולל שדה `alt` לנגישות.
+- **ניווט:** כתובת הקליניקה ב-`js/site-config.js` — ממנה נגזרים Google Maps ו-Waze.
 - קישור אינסטגרם: עדכנו ב-`index.html` כשיש URL מדויק.
 
 ## SEO
@@ -58,8 +64,9 @@ python3 -m http.server 8080
 - Open Graph + Twitter Card על כל העמודים (תמונת `og:image` 1200×630).
 - JSON-LD `BeautySalon` בדף הבית.
 - `robots.txt` + `sitemap.xml` (כולל כל פוסטי הבלוג).
+- H1 בדף הבית כולל שם + עיר ל-SEO מקומי.
 
 ## הערות
 
 - **Google Reviews:** אין API key / backend — בלוק הביקורות נשאר עם קישור ל-Google (ללא שליפה אוטומטית).
-- **WhatsApp preview לפוסטים:** meta מתעדכן ב-JS; לתצוגה מושלמת בכל מessenger מומלץ בעתיד pre-render או meta סטטי לפוסטים פופולריים.
+- **WhatsApp preview לפוסטים:** meta מתעדכן ב-JS; לתצוגה מושלמת בכל messenger מומלץ בעתיד pre-render או meta סטטי לפוסטים פופולריים.

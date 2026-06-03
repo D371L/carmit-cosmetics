@@ -1,24 +1,6 @@
 (function () {
   'use strict';
 
-  // Scroll to top (visible after hero)
-  const hero = document.querySelector('.hero');
-  const scrollTopBtn = document.getElementById('scrollTopBtn');
-
-  if (hero && scrollTopBtn) {
-    const updateScrollTop = () => {
-      scrollTopBtn.classList.toggle('is-visible', window.scrollY >= hero.offsetHeight);
-    };
-
-    scrollTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    window.addEventListener('scroll', updateScrollTop, { passive: true });
-    window.addEventListener('resize', updateScrollTop, { passive: true });
-    updateScrollTop();
-  }
-
   // Customer list form → WhatsApp (modal)
   const clubForm = document.getElementById('clubForm');
   const clubModal = document.getElementById('clubModal');
@@ -27,9 +9,14 @@
   const clubModalBackdrop = document.getElementById('clubModalBackdrop');
   const WA_PHONE = '972524677347';
 
+  let modalTransitionTimeout = null;
   function openClubModal() {
     if (!clubModal) return;
+    clearTimeout(modalTransitionTimeout);
     clubModal.hidden = false;
+    // Force a reflow
+    clubModal.offsetHeight;
+    clubModal.classList.add('is-open');
     document.body.style.overflow = 'hidden';
     const first = document.getElementById('clubFirstName');
     if (first) first.focus();
@@ -37,9 +24,15 @@
 
   function closeClubModal() {
     if (!clubModal) return;
-    clubModal.hidden = true;
+    clubModal.classList.remove('is-open');
     document.body.style.overflow = '';
     if (clubOpenBtn) clubOpenBtn.focus();
+    
+    // Wait for the transition to complete (400ms) before setting hidden to true
+    clearTimeout(modalTransitionTimeout);
+    modalTransitionTimeout = setTimeout(() => {
+      clubModal.hidden = true;
+    }, 400);
   }
 
   if (clubOpenBtn) clubOpenBtn.addEventListener('click', openClubModal);
@@ -153,6 +146,28 @@
       window.open(`https://wa.me/${WA_PHONE}?text=${text}`, '_blank', 'noopener');
       closeClubModal();
     });
+  }
+
+  // Scroll Reveal with IntersectionObserver
+  const revealElements = document.querySelectorAll('.reveal');
+  if (revealElements.length > 0) {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -60px 0px',
+      threshold: 0.15,
+    };
+
+    const revealCallback = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(revealCallback, observerOptions);
+    revealElements.forEach((el) => observer.observe(el));
   }
 
 })();
