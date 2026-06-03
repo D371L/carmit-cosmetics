@@ -380,7 +380,7 @@ html.a11y-smart-contrast {
   filter: contrast(1.12) saturate(1.05);
 }
 
-html.a11y-smart-contrast .hero-text .tagline-line,
+html.a11y-smart-contrast .hero-tagline,
 html.a11y-smart-contrast .contact-tagline,
 html.a11y-smart-contrast .service-card h2 {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
