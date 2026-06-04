@@ -170,6 +170,7 @@ def render_post(post: dict) -> str:
   <script src="../js/scroll-progress.js"></script>
   <script src="../js/scroll-top.js"></script>
   <script src="../js/blog-posts.js"></script>
+  <script src="../js/blog-content.js"></script>
   <script src="../js/post.js"></script>
   <script src="../js/a11y-widget.js"></script>
 </body>

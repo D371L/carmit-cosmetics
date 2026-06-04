@@ -83,7 +83,7 @@
     const media = img.closest('.blog-card-media');
     if (!media) return;
 
-    const postId = media.closest('.blog-card')?.querySelector('a')?.href?.match(/id=(\d+)/)?.[1];
+    const postId = media.closest('.blog-card')?.querySelector('a')?.href?.match(/post\/(\d+)\.html/)?.[1];
     const post = posts.find((p) => String(p.id) === String(postId));
     const candidates = post ? thumbFallbacks(post) : [img.getAttribute('src') || ''];
     let attempt = 0;

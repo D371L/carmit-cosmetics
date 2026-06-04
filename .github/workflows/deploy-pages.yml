@@ -30,6 +30,7 @@ jobs:
       - name: Generate post pages and sitemap
         run: |
           python3 scripts/enrich-blog-posts.py
+          python3 scripts/fetch-post-content.py || true
           python3 scripts/generate-post-pages.py
           python3 scripts/generate-sitemap.py
 

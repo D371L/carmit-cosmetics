@@ -60,8 +60,8 @@
     const image = ogImageUrl(post.image, post.video);
 
     document.title = title;
-    const set = (id, attr, value) => {
-      const el = document.getElementById(id);
+    const set = (elId, attr, value) => {
+      const el = document.getElementById(elId);
       if (el) el.setAttribute(attr, value);
     };
     const titleElMeta = document.getElementById('pageTitle');
@@ -104,6 +104,14 @@
     return `https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/${path.replace(/\.mp4$/i, '.jpg')}`;
   }
 
+  function formatDate(raw) {
+    if (!raw) return '';
+    const parts = String(raw).split(' ');
+    const date = parts[0] || '';
+    const time = (parts[1] || '').slice(0, 5);
+    return date ? `פורסם בתאריך: ${date}${time ? ` ${time}` : ''}` : '';
+  }
+
   function showError(msg) {
     if (loadingEl) loadingEl.hidden = true;
     if (errorEl) {
@@ -112,14 +120,40 @@
     }
   }
 
+  function escapeAttr(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function extractDetailsHtml(html) {
+    if (!html) return '';
+    const wrapped = html.match(/<div class="post-details">([\s\S]*)<\/div>\s*$/i);
+    if (wrapped) return `<div class="post-details">${wrapped[1]}</div>`;
+    if (html.includes('post-canvas')) {
+      return html.replace(/<div class="post-canvas">[\s\S]*?<\/div>/i, '').trim();
+    }
+    return html;
+  }
+
+  function buildArticleBody(post, html) {
+    const details = extractDetailsHtml(html);
+    const hero = post.image
+      ? `<div class="post-hero"><img src="${escapeAttr(post.image)}" alt="" loading="eager" decoding="async"></div>`
+      : '';
+    return hero + details;
+  }
+
+  function getLocalHtml(post) {
+    const map = window.BLOG_CONTENT || {};
+    return map[String(post.id)] || post.html || '';
+  }
+
   function renderVideo(post) {
     if (loadingEl) loadingEl.hidden = true;
+    if (errorEl) errorEl.hidden = true;
     if (titleEl) titleEl.textContent = post.title;
-    if (dateEl) {
-      dateEl.textContent = post.date
-        ? `פורסם בתאריך: ${post.date.split(' ')[0]} ${(post.date.split(' ')[1] || '').slice(0, 5)}`
-        : '';
-    }
+    if (dateEl) dateEl.textContent = formatDate(post.date);
     if (!bodyEl) return;
     bodyEl.innerHTML = `
       <div class="post-video-wrap">
@@ -129,19 +163,33 @@
       </div>`;
   }
 
+  function renderArticle(post, subject, date, html) {
+    if (loadingEl) loadingEl.hidden = true;
+    if (errorEl) errorEl.hidden = true;
+    if (titleEl) titleEl.textContent = (subject || '').trim();
+    if (dateEl) dateEl.textContent = formatDate(date);
+    if (bodyEl) bodyEl.innerHTML = buildArticleBody(post, html);
+  }
+
   async function loadArticle(post) {
+    const local = getLocalHtml(post);
+    if (local) {
+      renderArticle(post, post.title, post.date, local);
+      return;
+    }
+
     try {
       const res = await fetch(`https://broadcust.co.il/api/deal/get/${post.id}`);
       if (!res.ok) throw new Error('load failed');
       const data = await res.json();
-      if (loadingEl) loadingEl.hidden = true;
-      if (titleEl) titleEl.textContent = (data.subject || post.title).trim();
-      if (dateEl) {
-        const d = data.send_time || post.date;
-        dateEl.textContent = d ? `פורסם בתאריך: ${d}` : '';
-      }
-      if (bodyEl && data.html) {
-        bodyEl.innerHTML = data.html;
+      const details = data.details || '';
+      if (details) {
+        renderArticle(
+          post,
+          data.subject || post.title,
+          data.send_time || post.date,
+          `<div class="post-details">${details}</div>`
+        );
       } else {
         showError('לא נמצא תוכן לפרסום זה.');
       }
@@ -157,7 +205,6 @@
     if (meta.type === 'video' && meta.video) {
       renderVideo(meta);
     } else {
-      if (titleEl) titleEl.textContent = meta.title;
       loadArticle(meta);
     }
   }

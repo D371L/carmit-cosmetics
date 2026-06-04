@@ -55,6 +55,7 @@ js/
   gallery-data.js       Gallery items (images + videos)
   gallery.js            Carousel and lightbox
   blog-posts.js         Blog post data (+ seoTitle, ogImage, description)
+  blog-content.js       Pre-fetched article canvas + details HTML
   blog.js               Blog listing renderer
   post.js               Single post loader
   scroll-progress.js    Top scroll progress bar
@@ -67,6 +68,7 @@ scripts/
   sync-seo.py           Propagate base URL changes across HTML files
   fetch-blog-posts.py   Refresh blog data from Broadcust API
   enrich-blog-posts.py  Add SEO fields to blog-posts.js (no API)
+  fetch-post-content.py Fetch article canvas (html) + body (details) into blog-content.js
   generate-post-pages.py  Build post/{id}.html with static OG tags
   generate-sitemap.py   Regenerate sitemap.xml
 
@@ -101,7 +103,7 @@ scripts/
 |------|-------------|
 | Clinic address, phone, social links | `js/site-config.js` |
 | Gallery images and alt text | `js/gallery-data.js` |
-| Blog posts | `python3 scripts/fetch-blog-posts.py` (or `enrich-blog-posts.py`), then `generate-post-pages.py` + `generate-sitemap.py` |
+| Blog posts | `fetch-blog-posts.py` → `fetch-post-content.py` → `generate-post-pages.py` → `generate-sitemap.py` |
 | Instagram link | `index.html` |
 | Media assets | Hosted on Cloudinary CDN |
 
@@ -115,7 +117,8 @@ Messenger apps (WhatsApp, Telegram, Facebook) **do not run JavaScript**. Each bl
 
 ```bash
 python3 scripts/fetch-blog-posts.py      # optional — refresh from API
-python3 scripts/enrich-blog-posts.py   # add seoTitle, description, ogImage
+python3 scripts/enrich-blog-posts.py     # add seoTitle, description, ogImage
+python3 scripts/fetch-post-content.py    # download article canvas + details (19 posts)
 python3 scripts/generate-post-pages.py   # rebuild post/*.html
 python3 scripts/generate-sitemap.py
 ```
@@ -157,7 +160,7 @@ Python scripts use the same values from `scripts/seo_config.py`.
 ## Notes
 
 - **Google Reviews** — no API integration; the reviews section links out to Google.
-- **Broadcust API fetch** may return 403 from some networks; use `enrich-blog-posts.py` on the committed `blog-posts.js` instead.
+- **Broadcust API fetch** may return 403 from some networks; use `enrich-blog-posts.py` on committed `blog-posts.js`. Article content (hero canvas + body text/images) is stored locally in `blog-content.js` — no runtime API call needed for visitors.
 
 ---
 

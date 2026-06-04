@@ -1037,15 +1037,70 @@ ul {
 }
 
 .post-body {
+  overflow: visible;
+}
+
+.post-hero {
+  margin: 0 0 24px;
+  border-radius: var(--radius);
   overflow: hidden;
+  line-height: 0;
+}
+
+.post-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
 }
 
 .post-body .deal,
 .post-body .deal.type,
-.post-body .content {
+.post-body .content,
+.post-body .box {
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
+  position: relative !important;
+}
+
+.post-body img.background {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+}
+
+.post-details {
+  padding: 8px 0 24px;
+  font-family: var(--font-hebrew);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.post-details p {
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.post-details table {
+  width: 100% !important;
+  max-width: 100%;
+  margin: 16px auto;
+  border-collapse: collapse;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.post-details table td {
+  padding: 12px;
+  vertical-align: top;
+}
+
+.post-details img,
+.post-details video {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
 }
 
 .post-body img,
