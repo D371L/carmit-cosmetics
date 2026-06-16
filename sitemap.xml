@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carmitcosmetics.co.il/</loc>
     <lastmod>2026-06-16</lastmod>
@@ -26,284 +27,472 @@
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3105956.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%9C%D7%A2%D7%95%D7%A8_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%92%D7%99%D7%A2%D7%94_%D7%94%D7%AA%D7%97%D7%93%D7%A9%D7%95%D7%AA_rcfhjx.jpg</image:loc>
+      <image:title>לעור שלך מגיע התחדשות עמוקה ומראה זוהר — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3099653.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1767335373/production/users/12148/campaign/3099653_3e1edd9e-6913-47c8-b287-3cfa7857b52a.jpg</image:loc>
+      <image:title>מתי נכון להתחיל עם חומצה היאלורונית? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3093051.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1767095509/production/users/12148/campaign/3093051_37652430-a6f9-4715-bfb8-43bf7347d4d4.jpg</image:loc>
+      <image:title>פרסום מקצועי — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3086164.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/ipajin49jardmo1lucgv.jpg</image:loc>
+      <image:title>טיפול פנים - רענון הפנים בעזרת שתיית מים — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3028703.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1764216712/production/users/12148/campaign/3028703_7bfd0150-308a-4ef7-8921-2a9ad20f2ac2.jpg</image:loc>
+      <image:title>נמאס לך להרגיש שהזמן עובר על הפנים שלך? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3028666.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1764188451/production/users/12148/campaign/3028666_0297a2ab-7a99-4e27-bdf1-2264d8772b5e.jpg</image:loc>
+      <image:title>טיפול באקנה באור כחול הדרך הטבעית לעור נקי — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3016414.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1594112527/dl0zhb.jpg</image:loc>
+      <image:title>טיפולי פנים מתקדמים- היראות צעירה יותר עם — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2996395.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/lawyer2-27521_gxnzys.jpg</image:loc>
+      <image:title>טיפול פנים- זקוקה לטיפול פנים מקצועי שיחזיר — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2974249.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1668531231/My_video_FULL_HD_5_zaoixy.jpg</image:loc>
+      <image:title>אנטי אאייג&apos;ינג- העניק לעור שלך מה שהטבע הפסיק — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2966961.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/nsjoqi.jpg</image:loc>
+      <image:title>טיפולי פנים- טיפים לטיפול בכתמי הפיגמנטציה מ — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2944410.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1760421657/production/users/12148/campaign/2944410_b3250b76-387b-4272-ae6e-fe5447f24933.jpg</image:loc>
+      <image:title>גלו את מהפכת היופי עם טיפולי פוטותרפיה — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2925888.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/sukot4-16821_uqmaam.jpg</image:loc>
+      <image:title>סוכות- לאחר יום כיפור, תנוחו לקראת סוכות. חג — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2924877.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/sukot2-2920_uomorz.jpg</image:loc>
+      <image:title>סוכות - תשקיעי בסוכה, וגם בעצמך! חג שמח מ — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2911005.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1758601069/production/users/12148/campaign/2911005_6b5eec3d-a10c-4299-b2f3-122c000884b6.jpg</image:loc>
+      <image:title>סגולות הרימון: בריאות, יופי וטיפוח בפרי — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2890442.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.jpg</image:loc>
+      <image:title>טיפולי פנים - חג שמח - את עסוקה בבישולים — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2890444.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/gvscazaygvi0o9c44ncq.jpg</image:loc>
+      <image:title>טיפול פנים - את אשה עסוקה ואמא במשרה מלאה — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2877172.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1756899301/production/users/12148/campaign/2877172_d78e8b68-17ed-4580-bbb9-004c80f570f5.jpg</image:loc>
+      <image:title>שמירה על עור הפנים המפתח ליופי ובריאות — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2849609.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.jpg</image:loc>
+      <image:title>טיפולי פנים - ניסית בעצמך — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2821952.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.jpg</image:loc>
+      <image:title>טו באב- שיהיה לכם ט&quot;ו באב שמח וקסום מ — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2776685.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1752132704/production/users/12148/campaign/2776685_901f6348-85b9-4776-814f-f81668e8ce02.jpg</image:loc>
+      <image:title>צלקות אקנה, איך נפטרים מהן? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2766068.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/mhy69m.jpg</image:loc>
+      <image:title>טיפולי פנים- פילינג יהלום נוצץ ב — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2756047.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1751257303/production/users/12148/campaign/2756047_4129febd-0a99-4bbf-bf64-df2d4d31ea5b.jpg</image:loc>
+      <image:title>למה כל כך חשוב לעשות טיפול פנים? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2741679.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/ljy0pq.jpg</image:loc>
+      <image:title>טיפולי פנים- טיפים לטיפול בשחורים מ — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2721119.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1749366621/production/users/12148/campaign/2721119_d3f15012-c6f8-4bda-9c60-8b9f861d9418.jpg</image:loc>
+      <image:title>מזותרפיה להצערת עור הפנים אצל — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2712613.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.jpg</image:loc>
+      <image:title>טיפול פנים - חג שמח - תשקיעי בפנים שלך — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2690055.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.jpg</image:loc>
+      <image:title>יופי - היום שלך מלא — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2685606.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/mazotherapy1-23820_adwgjg.jpg</image:loc>
+      <image:title>טיפולי פנים מזותרפיה -רוצה לטפל בדברים — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2658912.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1594112527/iyydqj.jpg</image:loc>
+      <image:title>טיפולי יופי מתקדמים- בואו לטיפול בצלקות — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2656504.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/lizjad.jpg</image:loc>
+      <image:title>אקנה - ניסיתם תקופות סבתא ולא עובד כלום? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2626094.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/pesah4-14321_vcrpkg.jpg</image:loc>
+      <image:title>פסח- פסח מלא קסם ויופי מכרמית אסולין — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2605222.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/summer-10321_zedp9q.jpg</image:loc>
+      <image:title>שעון קיץ- כשחם בחוץ, חם בלב! קיץ שמח מכרמית — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2579787.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1741495450/production/users/12148/campaign/2579787_ff4734eb-38c5-4bcf-bf85-6dd4b9b2afac.jpg</image:loc>
+      <image:title>עדין לא היית בטיפול פנים מקצועי אצל כרמית — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2577805.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1741235377/production/users/12148/campaign/2577805_c03a6089-386b-4877-a271-b0e254aabaaf.jpg</image:loc>
+      <image:title>שיגרת בוקר לטיפוח מושלם! טיפים לשימוש מכרמית — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2579497.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-03-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/face2-27521_jtjaxa.jpg</image:loc>
+      <image:title>טיפול פנים- עונות השנה משפיעות על עור הפנים — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2560804.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.jpg</image:loc>
+      <image:title>טיפולי פנים יום האם - את דואגת להם מהרגע — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2491373.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/fpug3x0llnbwmcqqrdvg.jpg</image:loc>
+      <image:title>טיפול פנים - רוצה לשמור על עורך צעיר ורענן — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2494877.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1594112527/dl0zhb.jpg</image:loc>
+      <image:title>טיפולי פנים מתקדמים- היראות צעירה יותר עם — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2490587.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-12-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1735646450/production/users/12148/campaign/2490587_ef3da6c7-f6e8-4dd8-a860-d6ffa2dcbd03.jpg</image:loc>
+      <image:title>הילד סובל מפצעי בגרות? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2476785.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1734846889/production/users/12148/campaign/2476785_8f2452cd-1727-49a6-94a4-26f44d1be1ad.jpg</image:loc>
+      <image:title>העונג כולו שלי! כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2476648.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-12-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1734741407/production/users/12148/campaign/2476648_683ad56a-ec74-4ea5-88d1-a48fd5cfc41d.jpg</image:loc>
+      <image:title>5 טיפים לשמירה על עור הפנים בגיל ההתבגרות — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2471198.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1734409874/production/users/12148/campaign/2471198_e36cadac-eacd-4aed-b56a-c36d148da02d.jpg</image:loc>
+      <image:title>מיקרו-נידלינג להצערת עור הפנים אצל כרמית — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2445932.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/xfzrou.jpg</image:loc>
+      <image:title>טיפולי פנים - זה הזמן להחזיר את החיוך לפנים — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2436645.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1732181455/production/users/12148/campaign/2436645_b65a74a7-769d-4fd0-993e-b5c71d3899aa.jpg</image:loc>
+      <image:title>אפילציה חשמלית&apos; טכנולוגיה חדשנית להסרת שיער — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2430257.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1731906002/production/users/12148/campaign/2430257_277d1ba0-2fbc-4ea2-b850-be6bc00f82da.jpg</image:loc>
+      <image:title>7 עצות לטיפול באקנה כרמית אסולין קוסמטיקה — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2428392.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/face-24521_hfacwu.jpg</image:loc>
+      <image:title>רוצה להוסיף ברק וחיוניות לעור הפנים? — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2415504.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.jpg</image:loc>
+      <image:title>עיצוב גבות - הגבות שלך הם המסגרת — כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/2398696.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2024-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1729865839/production/users/12148/campaign/2398696_94a31864-710c-417e-8ff0-fae771db8cd8.jpg</image:loc>
+      <image:title>הצערת העור בשיטת RF אצל כרמית אסולין — כרמית אסולין</image:title>
+    </image:image>
   </url>
 </urlset>

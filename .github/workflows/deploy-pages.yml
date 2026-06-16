@@ -27,13 +27,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Generate post pages and sitemap
+      - name: Generate SEO and static pages
         run: |
           python3 scripts/enrich-blog-posts.py
           python3 scripts/fetch-post-content.py || true
           python3 scripts/sync-seo.py
+          python3 scripts/generate-site-meta.py
           python3 scripts/generate-post-pages.py
           python3 scripts/generate-sitemap.py
+          python3 scripts/audit-seo.py
 
       - name: Prepare static artifact
         run: |

@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-import html
 import json
 import re
 import sys
@@ -12,23 +11,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from seo_config import (  # noqa: E402
-    BASE_URL,
-    DEFAULT_OG_IMAGE,
-    DEFAULT_OG_IMAGE_ALT,
-    FULL_NAME,
-    LOCALE,
-    SITE_NAME,
-)
+from seo_config import BASE_URL, DEFAULT_OG_IMAGE, FULL_NAME, LOGO  # noqa: E402
+from seo_head import render_icon_links, render_social_meta  # noqa: E402
 
 BLOG_POSTS = ROOT.parent / "js" / "blog-posts.js"
 OUT_DIR = ROOT.parent / "post"
-
-OG_IMAGE = DEFAULT_OG_IMAGE
-LOGO = (
-    "https://res.cloudinary.com/broadcust/image/upload/c_scale,h_200/"
-    "v1706174206/production/users/12148/logo/d0efa39d-d056-4105-9285-88e6eddfcca1.png"
-)
 
 
 def load_posts() -> list[dict]:
@@ -39,18 +26,21 @@ def load_posts() -> list[dict]:
     return json.loads(match.group(1))
 
 
-def esc(value: str) -> str:
-    return html.escape(value or "", quote=True)
-
-
-def json_ld(post: dict, page_url: str, og_image: str) -> str:
-    payload = {
+def blog_posting_json_ld(post: dict, page_url: str, og_image: str, seo_title: str) -> dict:
+    payload: dict = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": post.get("seoTitle") or post.get("title", ""),
+        "headline": seo_title,
         "description": post.get("description", ""),
-        "image": og_image,
+        "image": {
+            "@type": "ImageObject",
+            "url": og_image,
+            "width": 1200,
+            "height": 630,
+            "caption": seo_title,
+        },
         "url": page_url,
+        "mainEntityOfPage": page_url,
         "inLanguage": "he-IL",
         "author": {"@type": "Person", "name": "כרמית אסולין"},
         "publisher": {
@@ -61,53 +51,96 @@ def json_ld(post: dict, page_url: str, og_image: str) -> str:
     }
     if post.get("datePublished"):
         payload["datePublished"] = post["datePublished"]
-    return json.dumps(payload, ensure_ascii=False, indent=2)
+        payload["dateModified"] = post["datePublished"]
+    return payload
+
+
+def breadcrumb_json_ld(post: dict, page_url: str, seo_title: str) -> dict:
+    base = BASE_URL.rstrip("/")
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "דף הבית",
+                "item": f"{base}/",
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "בלוג",
+                "item": f"{base}/blog.html",
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": seo_title,
+                "item": page_url,
+            },
+        ],
+    }
+
+
+def video_json_ld(post: dict, page_url: str, og_image: str, seo_title: str) -> dict | None:
+    video_url = post.get("video")
+    if not video_url or post.get("type") != "video":
+        return None
+    payload: dict = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": seo_title,
+        "description": post.get("description", ""),
+        "thumbnailUrl": og_image,
+        "contentUrl": video_url,
+        "uploadDate": post.get("datePublished", ""),
+        "url": page_url,
+    }
+    return payload
 
 
 def render_post(post: dict) -> str:
     post_id = post["id"]
     seo_title = post.get("seoTitle") or post.get("title", "פרסום")
     description = post.get("description") or seo_title
-    og_image = post.get("ogImage") or OG_IMAGE
+    og_image = post.get("ogImage") or DEFAULT_OG_IMAGE
     page_url = f"{BASE_URL.rstrip('/')}/post/{post_id}.html"
-    image_alt = esc(seo_title)
 
-    article_time = ""
-    if post.get("datePublished"):
-        article_time = (
-            f'  <meta property="article:published_time" content="{esc(post["datePublished"])}">\n'
+    social = render_social_meta(
+        title=seo_title,
+        description=description,
+        url=page_url,
+        og_image=og_image,
+        og_image_alt=seo_title,
+        og_type="article",
+        article_published_time=post.get("datePublished") or None,
+        article_author="כרמית אסולין",
+    )
+
+    ld_scripts = []
+    ld_scripts.append(blog_posting_json_ld(post, page_url, og_image, seo_title))
+    ld_scripts.append(breadcrumb_json_ld(post, page_url, seo_title))
+    video_ld = video_json_ld(post, page_url, og_image, seo_title)
+    if video_ld:
+        ld_scripts.append(video_ld)
+
+    json_ld_html = ""
+    for block in ld_scripts:
+        json_ld_html += (
+            f'  <script type="application/ld+json">\n'
+            f"{json.dumps(block, ensure_ascii=False, indent=2)}\n"
+            f"  </script>\n"
         )
-
-    ld = json_ld(post, page_url, og_image)
 
     return f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{esc(description)}">
-  <link rel="canonical" href="{esc(page_url)}">
-  <meta property="og:site_name" content="{esc(SITE_NAME)}">
-  <meta property="og:title" content="{esc(seo_title)}">
-  <meta property="og:description" content="{esc(description)}">
-  <meta property="og:url" content="{esc(page_url)}">
-  <meta property="og:type" content="article">
-  <meta property="og:locale" content="{LOCALE}">
-  <meta property="og:image" content="{esc(og_image)}">
-  <meta property="og:image:secure_url" content="{esc(og_image)}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="{image_alt}">
-{article_time}  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{esc(seo_title)}">
-  <meta name="twitter:description" content="{esc(description)}">
-  <meta name="twitter:image" content="{esc(og_image)}">
-  <title>{esc(seo_title)}</title>
-  <script type="application/ld+json">
-{ld}
-  </script>
-  <link rel="icon" href="{LOGO}" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+{social}
+{render_icon_links()}
+{json_ld_html}  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&family=Heebo:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
@@ -167,6 +200,7 @@ def render_post(post: dict) -> str:
   </div>
 
   <script>window.POST_ID = {post_id};</script>
+  <script src="../js/site-config.js"></script>
   <script src="../js/scroll-progress.js"></script>
   <script src="../js/scroll-top.js"></script>
   <script src="../js/blog-posts.js"></script>

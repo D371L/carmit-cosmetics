@@ -65,10 +65,13 @@ js/
 scripts/
   seo_config.py         Single source of truth for base URL and OG defaults
   seo_utils.py          SEO title/description/image helpers
-  sync-seo.py           Propagate base URL changes across HTML files
+  seo_head.py           Shared OG/Twitter meta tag renderer
+  sync-seo.py           Propagate base URL + regenerate js/site-config.js
+  generate-site-meta.py Update SEO blocks in index/blog/privacy/accessibility
+  audit-seo.py          Validate OG tags and image reachability (CI gate)
   fetch-blog-posts.py   Refresh blog data from Broadcust API
   enrich-blog-posts.py  Add SEO fields to blog-posts.js (no API)
-  fetch-post-content.py Fetch article canvas (html) + body (details) into blog-content.js
+  fetch-post-content.py Fetch article details into blog-content.js
   generate-post-pages.py  Build post/{id}.html with static OG tags
   generate-sitemap.py   Regenerate sitemap.xml
 
@@ -82,14 +85,15 @@ scripts/
 
 1. Push the code to the `main` branch on GitHub.
 2. Go to **Settings → Pages → Build and deployment** and set the source to **GitHub Actions**.
-3. Push to `main` — the workflow runs `enrich-blog-posts`, `generate-post-pages`, and `generate-sitemap` before deploy.
+3. Push to `main` — the workflow runs `enrich-blog-posts`, `generate-site-meta`, `generate-post-pages`, `generate-sitemap`, and `audit-seo.py` before deploy.
 
 ### Changing the domain
 
-1. Update `baseUrl` in [`js/site-config.js`](js/site-config.js) and [`scripts/seo_config.py`](scripts/seo_config.py).
+1. Update `BASE_URL` in [`scripts/seo_config.py`](scripts/seo_config.py).
 2. Run:
    ```bash
    python3 scripts/sync-seo.py
+   python3 scripts/generate-site-meta.py
    python3 scripts/generate-post-pages.py
    python3 scripts/generate-sitemap.py
    ```
@@ -118,9 +122,12 @@ Messenger apps (WhatsApp, Telegram, Facebook) **do not run JavaScript**. Each bl
 ```bash
 python3 scripts/fetch-blog-posts.py      # optional — refresh from API
 python3 scripts/enrich-blog-posts.py     # add seoTitle, description, ogImage
-python3 scripts/fetch-post-content.py    # download article canvas + details (19 posts)
+python3 scripts/fetch-post-content.py    # download article details (19 posts)
+python3 scripts/sync-seo.py              # regenerate site-config.js
+python3 scripts/generate-site-meta.py    # update index/blog/legal page meta
 python3 scripts/generate-post-pages.py   # rebuild post/*.html
 python3 scripts/generate-sitemap.py
+python3 scripts/audit-seo.py             # validate all OG tags + images
 ```
 
 **Test previews after deploy:**
@@ -130,30 +137,17 @@ python3 scripts/generate-sitemap.py
 | Facebook Sharing Debugger | https://developers.facebook.com/tools/debug/ |
 | WhatsApp | Send the link to yourself |
 | Telegram | Send to Saved Messages |
-| Local check | `curl -sL URL \| grep 'og:'` |
+| Local check | `curl -sL URL \| grep -E 'og:\|twitter:'` |
+| SEO audit | `python3 scripts/audit-seo.py` |
+| Google Search Console | Add property `carmitcosmetics.co.il`, submit sitemap |
 
-**Example post URL:** `https://carmitcosmetics.co.il/post/3099653.html`
-
-Legacy links `post.html?id=3099653` redirect in the browser to the static page.
+**Share canonical post URLs only:** `https://carmitcosmetics.co.il/post/{id}.html`
 
 ---
 
 ## Configuration
 
-All site-wide constants live in `js/site-config.js`:
-
-```js
-window.SITE_CONFIG = {
-  baseUrl: 'https://carmitcosmetics.co.il',
-  siteName: 'כרמית אסולין קוסמטיקה מתקדמת',
-  phone: '+972524677347',
-  email: 'carmit150@gmail.com',
-  address: { street: 'הראשונים 39', city: 'קרית חיים', country: 'IL' },
-  defaultOgImage: '...', // 1200×630 hero image
-};
-```
-
-Python scripts use the same values from `scripts/seo_config.py`.
+`js/site-config.js` is **auto-generated** from `scripts/seo_config.py` via `python3 scripts/sync-seo.py`. Edit Python constants there (base URL, OG images, contact info), then run the sync script.
 
 ---
 

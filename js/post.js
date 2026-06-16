@@ -28,27 +28,40 @@
 
   const cfg = window.SITE_CONFIG || {};
   const SITE_BASE = (cfg.baseUrl || 'https://carmitcosmetics.co.il').replace(/\/$/, '');
+  const OG_TRANSFORM = 'c_fill,w_1200,h_630,q_80,f_jpg';
+  const VIDEO_OG_TRANSFORM = 'c_fill,w_1200,h_630,q_80,f_jpg,so_0';
+
+  function encodeCloudinaryPath(path) {
+    try {
+      path = decodeURIComponent(path);
+    } catch {
+      /* keep path as-is */
+    }
+    path = path.replace(/\.(png|gif|webp|mp4)$/i, '.jpg');
+    return path.split('/').map((part) => encodeURIComponent(part)).join('/');
+  }
+
+  function buildOgCloudinaryUrl(resource, path) {
+    const transform = resource === 'video' ? VIDEO_OG_TRANSFORM : OG_TRANSFORM;
+    return `https://res.cloudinary.com/broadcust/${resource}/upload/${transform}/${encodeCloudinaryPath(path)}`;
+  }
 
   function ogImageUrl(imageUrl, videoUrl) {
     if (meta && meta.ogImage) return meta.ogImage;
-    const source = imageUrl || videoUrl;
-    if (!source) return cfg.defaultOgImage || cfg.ogImage || '';
-    if (source.includes('/video/upload/')) {
-      const path = cloudinaryDeliveryPath(source);
-      if (path) {
-        return `https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg,so_0/${path.replace(/\.mp4$/i, '.jpg')}`;
+    if (imageUrl) {
+      const fromImage = cloudinaryDeliveryPath(imageUrl);
+      if (fromImage.path) {
+        const resource = fromImage.resource || (imageUrl.includes('/video/') ? 'video' : 'image');
+        return buildOgCloudinaryUrl(resource, fromImage.path);
       }
     }
-    if (source.includes('/image/upload/')) {
-      const marker = '/image/upload/';
-      const idx = source.indexOf(marker);
-      const rest = source.slice(idx + marker.length);
-      const parts = rest.split('/');
-      const filename = parts[parts.length - 1];
-      const folders = parts.slice(0, -1).filter((p) => !isTransformSegment(p));
-      return `https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/${[...folders, filename].join('/')}`;
+    if (videoUrl && videoUrl.includes('/video/upload/')) {
+      const fromVideo = cloudinaryDeliveryPath(videoUrl);
+      if (fromVideo.path) {
+        return buildOgCloudinaryUrl('video', fromVideo.path);
+      }
     }
-    return source;
+    return cfg.defaultOgImage || cfg.ogImage || '';
   }
 
   function updatePageMeta(post) {
@@ -85,7 +98,7 @@
   }
 
   function cloudinaryDeliveryPath(url) {
-    if (!url) return '';
+    if (!url) return { resource: '', path: '' };
     for (const resource of ['image', 'video']) {
       const marker = `/${resource}/upload/`;
       const idx = url.indexOf(marker);
@@ -93,13 +106,13 @@
       const parts = url.slice(idx + marker.length).split('/');
       const filename = parts[parts.length - 1];
       const folders = parts.slice(0, -1).filter((p) => !isTransformSegment(p));
-      return [...folders, filename].join('/');
+      return { resource, path: [...folders, filename].join('/') };
     }
-    return '';
+    return { resource: '', path: '' };
   }
 
   function videoThumbUrl(videoUrl) {
-    const path = cloudinaryDeliveryPath(videoUrl);
+    const { path } = cloudinaryDeliveryPath(videoUrl);
     if (!path) return '';
     return `https://res.cloudinary.com/broadcust/video/upload/so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill/${path.replace(/\.mp4$/i, '.jpg')}`;
   }
@@ -139,7 +152,7 @@
   function buildArticleBody(post, html) {
     const details = extractDetailsHtml(html);
     const hero = post.image
-      ? `<div class="post-hero"><img src="${escapeAttr(post.image)}" alt="" loading="eager" decoding="async"></div>`
+      ? `<div class="post-hero"><img src="${escapeAttr(post.image)}" alt="${escapeAttr(post.title || '')}" loading="eager" decoding="async"></div>`
       : '';
     return hero + details;
   }

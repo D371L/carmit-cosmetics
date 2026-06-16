@@ -10,7 +10,7 @@ window.BLOG_POSTS = [
     "seoTitle": "לעור שלך מגיע התחדשות עמוקה ומראה זוהר — כרמית אסולין",
     "description": "לעור שלך מגיע התחדשות עמוקה ומראה זוהר — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2026-01-06T09:00:59+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/לעור_שלך_מגיעה_התחדשות_rcfhjx.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%9C%D7%A2%D7%95%D7%A8_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%92%D7%99%D7%A2%D7%94_%D7%94%D7%AA%D7%97%D7%93%D7%A9%D7%95%D7%AA_rcfhjx.jpg"
   },
   {
     "id": 3099653,
@@ -21,7 +21,7 @@ window.BLOG_POSTS = [
     "seoTitle": "מתי נכון להתחיל עם חומצה היאלורונית? — כרמית אסולין",
     "description": "מתי נכון להתחיל עם חומצה היאלורונית? — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2026-01-02T08:29:27+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1767335373/production/users/12148/campaign/3099653_3e1edd9e-6913-47c8-b287-3cfa7857b52a.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1767335373/production/users/12148/campaign/3099653_3e1edd9e-6913-47c8-b287-3cfa7857b52a.jpg"
   },
   {
     "id": 3093051,
@@ -32,7 +32,7 @@ window.BLOG_POSTS = [
     "seoTitle": "פרסום מקצועי — כרמית אסולין",
     "description": "היופי שלך בידים טובות | קוסמטיקאית בקרית חיים — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-12-30T13:51:43+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1767095509/production/users/12148/campaign/3093051_37652430-a6f9-4715-bfb8-43bf7347d4d4.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1767095509/production/users/12148/campaign/3093051_37652430-a6f9-4715-bfb8-43bf7347d4d4.jpg"
   },
   {
     "id": 3086164,
@@ -44,7 +44,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול פנים - רענון הפנים בעזרת שתיית מים — כרמית אסולין",
     "description": "טיפול פנים - רענון הפנים בעזרת שתיית מים — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-12-28T07:11:31+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/ipajin49jardmo1lucgv.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/ipajin49jardmo1lucgv.jpg"
   },
   {
     "id": 3028703,
@@ -55,7 +55,7 @@ window.BLOG_POSTS = [
     "seoTitle": "נמאס לך להרגיש שהזמן עובר על הפנים שלך? — כרמית אסולין",
     "description": "נמאס לך להרגיש שהזמן עובר על הפנים שלך? מבצע מיוחד אצל — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-11-28T14:00:50+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1764216712/production/users/12148/campaign/3028703_7bfd0150-308a-4ef7-8921-2a9ad20f2ac2.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1764216712/production/users/12148/campaign/3028703_7bfd0150-308a-4ef7-8921-2a9ad20f2ac2.jpg"
   },
   {
     "id": 3028666,
@@ -66,7 +66,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול באקנה באור כחול הדרך הטבעית לעור נקי — כרמית אסולין",
     "description": "טיפול באקנה באור כחול הדרך הטבעית לעור נקי ובריא — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-11-27T10:00:06+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1764188451/production/users/12148/campaign/3028666_0297a2ab-7a99-4e27-bdf1-2264d8772b5e.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1764188451/production/users/12148/campaign/3028666_0297a2ab-7a99-4e27-bdf1-2264d8772b5e.jpg"
   },
   {
     "id": 3016414,
@@ -78,7 +78,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים מתקדמים- היראות צעירה יותר עם — כרמית אסולין",
     "description": "טיפולי פנים מתקדמים- היראות צעירה יותר עם טיפול אנטי אייג׳ינג ב — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-11-21T09:00:58+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1594112527/dl0zhb.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1594112527/dl0zhb.jpg"
   },
   {
     "id": 2996395,
@@ -90,7 +90,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול פנים- זקוקה לטיפול פנים מקצועי שיחזיר — כרמית אסולין",
     "description": "טיפול פנים- זקוקה לטיפול פנים מקצועי שיחזיר לך את החיוניות לעור? — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-11-09T15:30:58+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/lawyer2-27521_gxnzys.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/lawyer2-27521_gxnzys.jpg"
   },
   {
     "id": 2974249,
@@ -102,7 +102,7 @@ window.BLOG_POSTS = [
     "seoTitle": "אנטי אאייג'ינג- העניק לעור שלך מה שהטבע הפסיק — כרמית אסולין",
     "description": "אנטי אאייג'ינג- העניק לעור שלך מה שהטבע הפסיק — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-10-27T19:52:32+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1668531231/My_video_FULL_HD_5_zaoixy.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1668531231/My_video_FULL_HD_5_zaoixy.jpg"
   },
   {
     "id": 2966961,
@@ -114,7 +114,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים- טיפים לטיפול בכתמי הפיגמנטציה מ — כרמית אסולין",
     "description": "טיפולי פנים- טיפים לטיפול בכתמי הפיגמנטציה מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-10-24T09:00:02+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/nsjoqi.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/nsjoqi.jpg"
   },
   {
     "id": 2944410,
@@ -125,7 +125,7 @@ window.BLOG_POSTS = [
     "seoTitle": "גלו את מהפכת היופי עם טיפולי פוטותרפיה — כרמית אסולין",
     "description": "גלו את מהפכת היופי עם טיפולי פוטותרפיה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-10-14T09:00:50+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1760421657/production/users/12148/campaign/2944410_b3250b76-387b-4272-ae6e-fe5447f24933.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1760421657/production/users/12148/campaign/2944410_b3250b76-387b-4272-ae6e-fe5447f24933.jpg"
   },
   {
     "id": 2925888,
@@ -137,7 +137,7 @@ window.BLOG_POSTS = [
     "seoTitle": "סוכות- לאחר יום כיפור, תנוחו לקראת סוכות. חג — כרמית אסולין",
     "description": "סוכות- לאחר יום כיפור, תנוחו לקראת סוכות. חג שמח מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-10-05T09:00:34+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/sukot4-16821_uqmaam.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/sukot4-16821_uqmaam.jpg"
   },
   {
     "id": 2924877,
@@ -149,7 +149,7 @@ window.BLOG_POSTS = [
     "seoTitle": "סוכות - תשקיעי בסוכה, וגם בעצמך! חג שמח מ — כרמית אסולין",
     "description": "סוכות - תשקיעי בסוכה, וגם בעצמך! חג שמח מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-10-03T09:00:44+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/sukot2-2920_uomorz.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/sukot2-2920_uomorz.jpg"
   },
   {
     "id": 2911005,
@@ -160,7 +160,7 @@ window.BLOG_POSTS = [
     "seoTitle": "סגולות הרימון: בריאות, יופי וטיפוח בפרי — כרמית אסולין",
     "description": "סגולות הרימון: בריאות, יופי וטיפוח בפרי המלכותי | טיפ שכדאי להכיר מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-09-23T07:17:43+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1758601069/production/users/12148/campaign/2911005_6b5eec3d-a10c-4299-b2f3-122c000884b6.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1758601069/production/users/12148/campaign/2911005_6b5eec3d-a10c-4299-b2f3-122c000884b6.jpg"
   },
   {
     "id": 2890442,
@@ -172,7 +172,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים - חג שמח - את עסוקה בבישולים — כרמית אסולין",
     "description": "טיפולי פנים - חג שמח - את עסוקה בבישולים לקראת החג — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-09-19T09:00:47+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%90%D7%AA_%D7%A2%D7%A1%D7%95%D7%A7%D7%94_%D7%91%D7%91%D7%99%D7%A9%D7%95%D7%9C%D7%99%D7%9D_%D7%9C%D7%A7%D7%A8%D7%90%D7%AA_%D7%94%D7%97%D7%92_ok0nsi.jpg"
   },
   {
     "id": 2890444,
@@ -184,7 +184,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול פנים - את אשה עסוקה ואמא במשרה מלאה — כרמית אסולין",
     "description": "טיפול פנים - את אשה עסוקה ואמא במשרה מלאה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-09-11T09:00:14+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/gvscazaygvi0o9c44ncq.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/gvscazaygvi0o9c44ncq.jpg"
   },
   {
     "id": 2877172,
@@ -195,7 +195,7 @@ window.BLOG_POSTS = [
     "seoTitle": "שמירה על עור הפנים המפתח ליופי ובריאות — כרמית אסולין",
     "description": "שמירה על עור הפנים המפתח ליופי ובריאות — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-09-03T14:34:55+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1756899301/production/users/12148/campaign/2877172_d78e8b68-17ed-4580-bbb9-004c80f570f5.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1756899301/production/users/12148/campaign/2877172_d78e8b68-17ed-4580-bbb9-004c80f570f5.jpg"
   },
   {
     "id": 2849609,
@@ -207,7 +207,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים - ניסית בעצמך — כרמית אסולין",
     "description": "טיפולי פנים - ניסית בעצמך — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-08-19T09:00:58+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99_%D7%A4%D7%A0%D7%99%D7%9D_-_%D7%A0%D7%99%D7%A1%D7%99%D7%AA_%D7%91%D7%A2%D7%A6%D7%9E%D7%9A_z6h4pq.jpg"
   },
   {
     "id": 2821952,
@@ -219,7 +219,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טו באב- שיהיה לכם ט\"ו באב שמח וקסום מ — כרמית אסולין",
     "description": "טו באב- שיהיה לכם ט\"ו באב שמח וקסום מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-08-05T09:00:17+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%98%D7%95_%D7%91%D7%90%D7%91_FULL_HD_ddjhad.jpg"
   },
   {
     "id": 2776685,
@@ -230,7 +230,7 @@ window.BLOG_POSTS = [
     "seoTitle": "צלקות אקנה, איך נפטרים מהן? — כרמית אסולין",
     "description": "צלקות אקנה, איך נפטרים מהן? - מידע חשוב מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-07-10T10:31:38+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1752132704/production/users/12148/campaign/2776685_901f6348-85b9-4776-814f-f81668e8ce02.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1752132704/production/users/12148/campaign/2776685_901f6348-85b9-4776-814f-f81668e8ce02.jpg"
   },
   {
     "id": 2766068,
@@ -242,7 +242,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים- פילינג יהלום נוצץ ב — כרמית אסולין",
     "description": "טיפולי פנים- פילינג יהלום נוצץ ב — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-07-06T06:42:06+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/mhy69m.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/mhy69m.jpg"
   },
   {
     "id": 2756047,
@@ -253,7 +253,7 @@ window.BLOG_POSTS = [
     "seoTitle": "למה כל כך חשוב לעשות טיפול פנים? — כרמית אסולין",
     "description": "למה כל כך חשוב לעשות טיפול פנים? - — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-06-30T07:21:37+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1751257303/production/users/12148/campaign/2756047_4129febd-0a99-4bbf-bf64-df2d4d31ea5b.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1751257303/production/users/12148/campaign/2756047_4129febd-0a99-4bbf-bf64-df2d4d31ea5b.jpg"
   },
   {
     "id": 2741679,
@@ -265,7 +265,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים- טיפים לטיפול בשחורים מ — כרמית אסולין",
     "description": "טיפולי פנים- טיפים לטיפול בשחורים מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-06-21T08:26:41+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/ljy0pq.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/ljy0pq.jpg"
   },
   {
     "id": 2721119,
@@ -276,7 +276,7 @@ window.BLOG_POSTS = [
     "seoTitle": "מזותרפיה להצערת עור הפנים אצל — כרמית אסולין",
     "description": "מזותרפיה להצערת עור הפנים אצל — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-06-08T10:10:16+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1749366621/production/users/12148/campaign/2721119_d3f15012-c6f8-4bda-9c60-8b9f861d9418.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1749366621/production/users/12148/campaign/2721119_d3f15012-c6f8-4bda-9c60-8b9f861d9418.jpg"
   },
   {
     "id": 2712613,
@@ -288,7 +288,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול פנים - חג שמח - תשקיעי בפנים שלך — כרמית אסולין",
     "description": "טיפול פנים - חג שמח - תשקיעי בפנים שלך — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-05-31T09:00:14+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%A1%D7%A8%D7%98%D7%95%D7%9F_%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%A4%D7%A0%D7%99%D7%9D_%D7%97%D7%92_%D7%A9%D7%9E%D7%97_%D7%AA%D7%A9%D7%A7%D7%99%D7%A2%D7%99_%D7%91%D7%A4%D7%A0%D7%99%D7%9D_%D7%A9%D7%9C%D7%9A_lponw3.jpg"
   },
   {
     "id": 2690055,
@@ -300,7 +300,7 @@ window.BLOG_POSTS = [
     "seoTitle": "יופי - היום שלך מלא — כרמית אסולין",
     "description": "יופי - היום שלך מלא — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-05-18T21:00:03+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%94%D7%99%D7%95%D7%9D_%D7%A9%D7%9C%D7%9A_%D7%9E%D7%9C%D7%90_hsblgb.jpg"
   },
   {
     "id": 2685606,
@@ -312,7 +312,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים מזותרפיה -רוצה לטפל בדברים — כרמית אסולין",
     "description": "טיפולי פנים מזותרפיה -רוצה לטפל בדברים שמציקים בפנים? — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-05-16T09:00:56+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/mazotherapy1-23820_adwgjg.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/mazotherapy1-23820_adwgjg.jpg"
   },
   {
     "id": 2658912,
@@ -324,7 +324,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי יופי מתקדמים- בואו לטיפול בצלקות — כרמית אסולין",
     "description": "טיפולי יופי מתקדמים- בואו לטיפול בצלקות הפנים אצל — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-04-28T09:00:55+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1594112527/iyydqj.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1594112527/iyydqj.jpg"
   },
   {
     "id": 2656504,
@@ -336,7 +336,7 @@ window.BLOG_POSTS = [
     "seoTitle": "אקנה - ניסיתם תקופות סבתא ולא עובד כלום? — כרמית אסולין",
     "description": "אקנה - ניסיתם תקופות סבתא ולא עובד כלום? קבלו טיפים מ — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-04-21T06:23:35+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/lizjad.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/lizjad.jpg"
   },
   {
     "id": 2626094,
@@ -348,7 +348,7 @@ window.BLOG_POSTS = [
     "seoTitle": "פסח- פסח מלא קסם ויופי מכרמית אסולין — כרמית אסולין",
     "description": "פסח- פסח מלא קסם ויופי מכרמית אסולין קוסמטיקה מתקדמת בחיפה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-04-12T07:23:06+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/pesah4-14321_vcrpkg.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/pesah4-14321_vcrpkg.jpg"
   },
   {
     "id": 2605222,
@@ -360,7 +360,7 @@ window.BLOG_POSTS = [
     "seoTitle": "שעון קיץ- כשחם בחוץ, חם בלב! קיץ שמח מכרמית — כרמית אסולין",
     "description": "שעון קיץ- כשחם בחוץ, חם בלב! קיץ שמח מכרמית אסולין קוסמטיקה מתקדמת בחיפה — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-03-27T13:49:27+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/summer-10321_zedp9q.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/summer-10321_zedp9q.jpg"
   },
   {
     "id": 2579787,
@@ -371,7 +371,7 @@ window.BLOG_POSTS = [
     "seoTitle": "עדין לא היית בטיפול פנים מקצועי אצל כרמית — כרמית אסולין",
     "description": "עדין לא היית בטיפול פנים מקצועי אצל כרמית אסולין קוסמטיקה מתקדמת? כדאי שתדעי 5 עובדות חשובות — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-03-09T06:44:00+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1741495450/production/users/12148/campaign/2579787_ff4734eb-38c5-4bcf-bf85-6dd4b9b2afac.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1741495450/production/users/12148/campaign/2579787_ff4734eb-38c5-4bcf-bf85-6dd4b9b2afac.jpg"
   },
   {
     "id": 2577805,
@@ -382,7 +382,7 @@ window.BLOG_POSTS = [
     "seoTitle": "שיגרת בוקר לטיפוח מושלם! טיפים לשימוש מכרמית — כרמית אסולין",
     "description": "שיגרת בוקר לטיפוח מושלם! טיפים לשימוש מכרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-03-07T09:00:52+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1741235377/production/users/12148/campaign/2577805_c03a6089-386b-4877-a271-b0e254aabaaf.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1741235377/production/users/12148/campaign/2577805_c03a6089-386b-4877-a271-b0e254aabaaf.jpg"
   },
   {
     "id": 2579497,
@@ -394,7 +394,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול פנים- עונות השנה משפיעות על עור הפנים — כרמית אסולין",
     "description": "טיפול פנים- עונות השנה משפיעות על עור הפנים, טיפול פנים בכרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-03-07T06:54:54+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/face2-27521_jtjaxa.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/face2-27521_jtjaxa.jpg"
   },
   {
     "id": 2560804,
@@ -406,7 +406,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים יום האם - את דואגת להם מהרגע — כרמית אסולין",
     "description": "טיפולי פנים יום האם - את דואגת להם מהרגע הראשון — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-02-28T12:27:07+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%9E%D7%95%D7%A8%20%D7%A1%D7%A8%D7%98%D7%95%D7%9F%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%20%D7%A4%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%9D%20%D7%94%D7%90%D7%9D%20-%20%D7%90%D7%AA%20%D7%93%D7%95%D7%90%D7%92%D7%AA%20%D7%9C%D7%94%D7%9D%20%D7%9E%D7%94%D7%A8%D7%92%D7%A2%20%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F.jpg"
   },
   {
     "id": 2491373,
@@ -418,7 +418,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפול פנים - רוצה לשמור על עורך צעיר ורענן — כרמית אסולין",
     "description": "טיפול פנים - רוצה לשמור על עורך צעיר ורענן — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-01-03T21:00:15+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/fpug3x0llnbwmcqqrdvg.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/fpug3x0llnbwmcqqrdvg.jpg"
   },
   {
     "id": 2494877,
@@ -430,7 +430,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים מתקדמים- היראות צעירה יותר עם — כרמית אסולין",
     "description": "טיפולי פנים מתקדמים- היראות צעירה יותר עם טיפול אנטי אייג׳ינג בכרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2025-01-03T16:50:01+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1594112527/dl0zhb.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/v1594112527/dl0zhb.jpg"
   },
   {
     "id": 2490587,
@@ -441,7 +441,7 @@ window.BLOG_POSTS = [
     "seoTitle": "הילד סובל מפצעי בגרות? — כרמית אסולין",
     "description": "הילד סובל מפצעי בגרות? כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-12-31T14:00:42+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1735646450/production/users/12148/campaign/2490587_ef3da6c7-f6e8-4dd8-a860-d6ffa2dcbd03.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1735646450/production/users/12148/campaign/2490587_ef3da6c7-f6e8-4dd8-a860-d6ffa2dcbd03.jpg"
   },
   {
     "id": 2476785,
@@ -452,7 +452,7 @@ window.BLOG_POSTS = [
     "seoTitle": "העונג כולו שלי! כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין",
     "description": "העונג כולו שלי! כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-12-22T07:54:41+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1734846889/production/users/12148/campaign/2476785_8f2452cd-1727-49a6-94a4-26f44d1be1ad.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1734846889/production/users/12148/campaign/2476785_8f2452cd-1727-49a6-94a4-26f44d1be1ad.jpg"
   },
   {
     "id": 2476648,
@@ -463,7 +463,7 @@ window.BLOG_POSTS = [
     "seoTitle": "5 טיפים לשמירה על עור הפנים בגיל ההתבגרות — כרמית אסולין",
     "description": "5 טיפים לשמירה על עור הפנים בגיל ההתבגרות כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-12-21T02:36:39+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1734741407/production/users/12148/campaign/2476648_683ad56a-ec74-4ea5-88d1-a48fd5cfc41d.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1734741407/production/users/12148/campaign/2476648_683ad56a-ec74-4ea5-88d1-a48fd5cfc41d.jpg"
   },
   {
     "id": 2471198,
@@ -474,7 +474,7 @@ window.BLOG_POSTS = [
     "seoTitle": "מיקרו-נידלינג להצערת עור הפנים אצל כרמית — כרמית אסולין",
     "description": "מיקרו-נידלינג להצערת עור הפנים אצל כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-12-17T06:31:05+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1734409874/production/users/12148/campaign/2471198_e36cadac-eacd-4aed-b56a-c36d148da02d.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1734409874/production/users/12148/campaign/2471198_e36cadac-eacd-4aed-b56a-c36d148da02d.jpg"
   },
   {
     "id": 2445932,
@@ -486,7 +486,7 @@ window.BLOG_POSTS = [
     "seoTitle": "טיפולי פנים - זה הזמן להחזיר את החיוך לפנים — כרמית אסולין",
     "description": "טיפולי פנים - זה הזמן להחזיר את החיוך לפנים שלך — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-11-28T05:14:23+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/xfzrou.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/xfzrou.jpg"
   },
   {
     "id": 2436645,
@@ -497,7 +497,7 @@ window.BLOG_POSTS = [
     "seoTitle": "אפילציה חשמלית' טכנולוגיה חדשנית להסרת שיער — כרמית אסולין",
     "description": "אפילציה חשמלית' טכנולוגיה חדשנית להסרת שיער - כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-11-21T14:00:00+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1732181455/production/users/12148/campaign/2436645_b65a74a7-769d-4fd0-993e-b5c71d3899aa.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1732181455/production/users/12148/campaign/2436645_b65a74a7-769d-4fd0-993e-b5c71d3899aa.jpg"
   },
   {
     "id": 2430257,
@@ -508,7 +508,7 @@ window.BLOG_POSTS = [
     "seoTitle": "7 עצות לטיפול באקנה כרמית אסולין קוסמטיקה — כרמית אסולין",
     "description": "7 עצות לטיפול באקנה כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-11-18T06:59:53+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1731906002/production/users/12148/campaign/2430257_277d1ba0-2fbc-4ea2-b850-be6bc00f82da.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1731906002/production/users/12148/campaign/2430257_277d1ba0-2fbc-4ea2-b850-be6bc00f82da.jpg"
   },
   {
     "id": 2428392,
@@ -520,7 +520,7 @@ window.BLOG_POSTS = [
     "seoTitle": "רוצה להוסיף ברק וחיוניות לעור הפנים? — כרמית אסולין",
     "description": "רוצה להוסיף ברק וחיוניות לעור הפנים? כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-11-17T08:22:48+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/face-24521_hfacwu.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/face-24521_hfacwu.jpg"
   },
   {
     "id": 2415504,
@@ -532,7 +532,7 @@ window.BLOG_POSTS = [
     "seoTitle": "עיצוב גבות - הגבות שלך הם המסגרת — כרמית אסולין",
     "description": "עיצוב גבות - הגבות שלך הם המסגרת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-11-06T16:41:19+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_auto,f_jpg/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.jpg"
+    "ogImage": "https://res.cloudinary.com/broadcust/video/upload/c_fill,w_1200,h_630,q_80,f_jpg,so_0/%D7%94%D7%92%D7%91%D7%95%D7%AA_%D7%A9%D7%9C%D7%9A_%D7%94%D7%9D_%D7%94%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_fibbfr.jpg"
   },
   {
     "id": 2398696,
@@ -543,6 +543,6 @@ window.BLOG_POSTS = [
     "seoTitle": "הצערת העור בשיטת RF אצל כרמית אסולין — כרמית אסולין",
     "description": "הצערת העור בשיטת RF אצל כרמית אסולין קוסמטיקה מתקדמת — כרמית אסולין קוסמטיקה מתקדמת בקרית חיים.",
     "datePublished": "2024-10-29T09:00:16+02:00",
-    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_auto,f_jpg/v1729865839/production/users/12148/campaign/2398696_94a31864-710c-417e-8ff0-fae771db8cd8.png"
+    "ogImage": "https://res.cloudinary.com/broadcust/image/upload/c_fill,w_1200,h_630,q_80,f_jpg/v1729865839/production/users/12148/campaign/2398696_94a31864-710c-417e-8ff0-fae771db8cd8.jpg"
   }
 ];

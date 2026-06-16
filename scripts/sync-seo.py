@@ -1,14 +1,31 @@
 #!/usr/bin/env python3
-"""Replace legacy base URLs across HTML, robots.txt, and JS with seo-config.BASE_URL."""
+"""Replace legacy base URLs and regenerate js/site-config.js from seo_config.py."""
 
 from __future__ import annotations
 
-import re
 from pathlib import Path
 
-from seo_config import BASE_URL, OLD_BASE_URL
+from seo_config import (
+    ADDRESS_CITY,
+    ADDRESS_COUNTRY,
+    ADDRESS_STREET,
+    BASE_URL,
+    DEFAULT_OG_IMAGE,
+    DEFAULT_OG_IMAGE_ALT,
+    EMAIL,
+    FACEBOOK_URL,
+    FULL_NAME,
+    LOCALE,
+    MAPS_DIR_URL,
+    OLD_BASE_URL,
+    PHONE,
+    SITE_NAME,
+    TAGLINE,
+    WAZE_URL,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
+SITE_CONFIG = ROOT / "js" / "site-config.js"
 TARGETS = [
     ROOT / "index.html",
     ROOT / "blog.html",
@@ -16,12 +33,44 @@ TARGETS = [
     ROOT / "accessibility.html",
     ROOT / "privacy.html",
     ROOT / "robots.txt",
-    ROOT / "js" / "site-config.js",
     ROOT / "js" / "post.js",
-    ROOT / "scripts" / "generate-sitemap.py",
 ]
 
 POST_DIR = ROOT / "post"
+
+
+def generate_site_config_js() -> str:
+    return f"""/**
+ * Auto-generated from scripts/seo_config.py — run: python3 scripts/sync-seo.py
+ */
+(function () {{
+  const address = {{
+    street: '{ADDRESS_STREET}',
+    city: '{ADDRESS_CITY}',
+    country: '{ADDRESS_COUNTRY}',
+  }};
+  const addressQuery = encodeURIComponent(`${{address.street}}, ${{address.city}}`);
+
+  window.SITE_CONFIG = {{
+    baseUrl: '{BASE_URL}',
+    siteName: '{SITE_NAME}',
+    name: '{FULL_NAME}',
+    description: '{TAGLINE}',
+    tagline: '{TAGLINE}',
+    locale: '{LOCALE}',
+    phone: '{PHONE}',
+    email: '{EMAIL}',
+    address,
+    mapsDirUrl: `https://www.google.com/maps/dir/?api=1&destination=${{addressQuery}}`,
+    wazeUrl: `https://waze.com/ul?q=${{addressQuery}}&navigate=yes`,
+    ogImage: '{DEFAULT_OG_IMAGE}',
+    defaultOgImage: '{DEFAULT_OG_IMAGE}',
+    defaultOgImageAlt: '{DEFAULT_OG_IMAGE_ALT}',
+    logo: 'https://res.cloudinary.com/broadcust/image/upload/c_scale,h_200/v1706174206/production/users/12148/logo/d0efa39d-d056-4105-9285-88e6eddfcca1.png',
+    sameAs: ['{FACEBOOK_URL}'],
+  }};
+}})();
+"""
 
 
 def sync_file(path: Path) -> bool:
@@ -46,6 +95,9 @@ def sync_post_pages() -> int:
 
 
 def main() -> None:
+    SITE_CONFIG.write_text(generate_site_config_js(), encoding="utf-8")
+    print(f"Wrote {SITE_CONFIG.relative_to(ROOT)}")
+
     changed = 0
     for path in TARGETS:
         if sync_file(path):

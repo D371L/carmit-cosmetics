@@ -4,10 +4,14 @@ from __future__ import annotations
 
 import re
 from datetime import datetime
+from urllib.parse import quote
 
-from seo_config import DEFAULT_OG_IMAGE, FULL_NAME, TAGLINE
+from urllib.parse import quote, unquote
 
-OG_TRANSFORM = "c_fill,w_1200,h_630,q_auto,f_jpg"
+from seo_config import DEFAULT_OG_IMAGE, FULL_NAME, OG_TRANSFORM, TAGLINE
+
+VIDEO_OG_TRANSFORM = "c_fill,w_1200,h_630,q_80,f_jpg,so_0"
+
 IMG_TRANSFORM = "f_auto,q_auto:eco,w_360,h_202,c_fill"
 VIDEO_TRANSFORM = "so_0,f_jpg,q_auto:eco,w_360,h_202,c_fill"
 
@@ -38,6 +42,26 @@ def _is_transform_segment(part: str) -> bool:
     return part.startswith(("t_", "e_", "l_text:")) or "," in part
 
 
+def normalize_delivery_path(path: str) -> str:
+    path = path.strip("/")
+    path = re.sub(r"\.(png|gif|webp|mp4)$", ".jpg", path, flags=re.IGNORECASE)
+    return path
+
+
+def encode_cloudinary_path(path: str) -> str:
+    decoded = unquote(path)
+    normalized = normalize_delivery_path(decoded)
+    return quote(normalized, safe="/")
+
+
+def build_cloudinary_og_url(resource: str, path: str) -> str:
+    if not path:
+        return DEFAULT_OG_IMAGE
+    transform = VIDEO_OG_TRANSFORM if resource == "video" else OG_TRANSFORM
+    encoded = encode_cloudinary_path(path)
+    return f"https://res.cloudinary.com/broadcust/{resource}/upload/{transform}/{encoded}"
+
+
 def cloudinary_delivery_path(url: str) -> tuple[str, str]:
     if not url:
         return "", ""
@@ -53,20 +77,21 @@ def cloudinary_delivery_path(url: str) -> tuple[str, str]:
 
 
 def og_image_url(image_url: str | None, video_url: str | None = None) -> str:
-    source = image_url or video_url
+    if image_url:
+        resource, path = cloudinary_delivery_path(image_url)
+        if path:
+            return build_cloudinary_og_url(resource or "image", path)
+
+    source = video_url
     if not source:
         return DEFAULT_OG_IMAGE
-    if "/video/upload/" in source or (video_url and not image_url):
-        url = video_url or source
-        _, path = cloudinary_delivery_path(url)
+    if "/video/upload/" in source:
+        resource, path = cloudinary_delivery_path(source)
         if path:
-            path = path.replace(".mp4", ".jpg")
-            return f"https://res.cloudinary.com/broadcust/video/upload/{OG_TRANSFORM}/{path}"
-    if "/image/upload/" in source:
-        _, path = cloudinary_delivery_path(source)
-        if path:
-            return f"https://res.cloudinary.com/broadcust/image/upload/{OG_TRANSFORM}/{path}"
-    return source if source.startswith("https://") else DEFAULT_OG_IMAGE
+            return build_cloudinary_og_url(resource or "video", path)
+    if source.startswith("https://"):
+        return source
+    return DEFAULT_OG_IMAGE
 
 
 def image_thumb(url: str) -> str:
@@ -138,4 +163,11 @@ def parse_date_published(date_str: str) -> str:
             return dt.strftime("%Y-%m-%dT%H:%M:%S+02:00")
         except ValueError:
             continue
+    return ""
+
+
+def parse_date_iso_date(date_str: str) -> str:
+    published = parse_date_published(date_str)
+    if published:
+        return published[:10]
     return ""
