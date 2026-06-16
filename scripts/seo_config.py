@@ -1,6 +1,6 @@
 """Single source of truth for SEO constants — keep in sync with js/site-config.js."""
 
-BASE_URL = "https://d371l.github.io/carmit-cosmetics"
+BASE_URL = "https://carmitcosmetics.co.il"
 SITE_NAME = "כרמית אסולין קוסמטיקה מתקדמת"
 FULL_NAME = "כרמית אסולין קוסמטיקה מתקדמת בקרית חיים"
 TAGLINE = "היופי שלך בידים טובות | קוסמטיקאית בקרית חיים"
@@ -12,4 +12,4 @@ DEFAULT_OG_IMAGE = (
 )
 DEFAULT_OG_IMAGE_ALT = "כרמית אסולין קוסמטיקה מתקדמת בקרית חיים — טיפולי פנים וקוסמטיקה"
 LOCALE = "he_IL"
-OLD_BASE_URL = "https://YOUR_GITHUB_USERNAME.github.io/carmit-cosmetics"
+OLD_BASE_URL = "https://d371l.github.io/carmit-cosmetics"

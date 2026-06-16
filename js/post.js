@@ -27,7 +27,7 @@
   const errorEl = document.getElementById('postError');
 
   const cfg = window.SITE_CONFIG || {};
-  const SITE_BASE = (cfg.baseUrl || 'https://d371l.github.io/carmit-cosmetics').replace(/\/$/, '');
+  const SITE_BASE = (cfg.baseUrl || 'https://carmitcosmetics.co.il').replace(/\/$/, '');
 
   function ogImageUrl(imageUrl, videoUrl) {
     if (meta && meta.ogImage) return meta.ogImage;

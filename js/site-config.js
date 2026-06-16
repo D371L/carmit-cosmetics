@@ -11,7 +11,7 @@
   const addressQuery = encodeURIComponent(`${address.street}, ${address.city}`);
 
   window.SITE_CONFIG = {
-    baseUrl: 'https://d371l.github.io/carmit-cosmetics',
+    baseUrl: 'https://carmitcosmetics.co.il',
     siteName: 'כרמית אסולין קוסמטיקה מתקדמת',
     name: 'כרמית אסולין קוסמטיקה מתקדמת בקרית חיים',
     description: 'היופי שלך בידים טובות | קוסמטיקאית בקרית חיים',

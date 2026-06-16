@@ -4,7 +4,7 @@ Website for **Carmit Assulin Advanced Cosmetics** — a beauty clinic in Kiryat 
 
 Mobile-first, RTL Hebrew layout with a centered 500px column. Pure HTML, CSS, and vanilla JavaScript — no build step, no framework.
 
-**Live site:** [d371l.github.io/carmit-cosmetics](https://d371l.github.io/carmit-cosmetics)
+**Live site:** [carmitcosmetics.co.il](https://carmitcosmetics.co.il)
 
 ---
 
@@ -132,7 +132,7 @@ python3 scripts/generate-sitemap.py
 | Telegram | Send to Saved Messages |
 | Local check | `curl -sL URL \| grep 'og:'` |
 
-**Example post URL:** `https://d371l.github.io/carmit-cosmetics/post/3099653.html`
+**Example post URL:** `https://carmitcosmetics.co.il/post/3099653.html`
 
 Legacy links `post.html?id=3099653` redirect in the browser to the static page.
 
@@ -144,7 +144,7 @@ All site-wide constants live in `js/site-config.js`:
 
 ```js
 window.SITE_CONFIG = {
-  baseUrl: 'https://d371l.github.io/carmit-cosmetics',
+  baseUrl: 'https://carmitcosmetics.co.il',
   siteName: 'כרמית אסולין קוסמטיקה מתקדמת',
   phone: '+972524677347',
   email: 'carmit150@gmail.com',

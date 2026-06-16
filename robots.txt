@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://d371l.github.io/carmit-cosmetics/sitemap.xml
+Sitemap: https://carmitcosmetics.co.il/sitemap.xml
