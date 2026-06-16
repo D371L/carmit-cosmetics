@@ -105,9 +105,9 @@ scripts/
 
 | What | Where / how |
 |------|-------------|
-| Clinic address, phone, social links | `js/site-config.js` |
+| Clinic address, phone, social links | `scripts/seo_config.py` + `python3 scripts/sync-seo.py` |
 | Gallery images and alt text | `js/gallery-data.js` |
-| Blog posts | `fetch-blog-posts.py` → `fetch-post-content.py` → `generate-post-pages.py` → `generate-sitemap.py` |
+| Blog posts | `fetch-blog-posts.py` → `enrich-blog-posts.py` → `fetch-post-content.py` → `generate-post-pages.py` → `generate-sitemap.py` |
 | Instagram link | `index.html` |
 | Media assets | Hosted on Cloudinary CDN |
 
@@ -154,7 +154,7 @@ python3 scripts/audit-seo.py             # validate all OG tags + images
 ## Notes
 
 - **Google Reviews** — no API integration; the reviews section links out to Google.
-- **Broadcust API fetch** may return 403 from some networks; use `enrich-blog-posts.py` on committed `blog-posts.js`. Article content (hero canvas + body text/images) is stored locally in `blog-content.js` — no runtime API call needed for visitors.
+- **Broadcust API fetch** may return 403 from some networks; use `enrich-blog-posts.py` on committed `blog-posts.js`. Article body content is stored locally in `blog-content.js` — no runtime API call needed for visitors.
 
 ---
 
