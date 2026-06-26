@@ -33,13 +33,17 @@ def main() -> None:
     posts = load_posts()
     for post in posts:
         title = post.get("title", "")
-        post["seoTitle"] = build_seo_title(title)
-        post["description"] = build_description(title)
+        is_external = post.get("external") is True
+        if not is_external or not post.get("seoTitle"):
+            post["seoTitle"] = build_seo_title(title)
+        if not is_external or not post.get("description"):
+            post["description"] = build_description(title)
         post["datePublished"] = parse_date_published(post.get("date", ""))
-        post["ogImage"] = og_image_url(post.get("image"), post.get("video"))
+        if not is_external or not post.get("ogImage"):
+            post["ogImage"] = og_image_url(post.get("image"), post.get("video"))
 
     with BLOG_POSTS.open("w", encoding="utf-8") as f:
-        f.write("/* Auto-generated from Broadcust API — business uid 12148 */\n")
+        f.write("/* Auto-generated — Broadcust API + external articles */\n")
         f.write("window.BLOG_POSTS = ")
         json.dump(posts, f, ensure_ascii=False, indent=2)
         f.write(";\n")

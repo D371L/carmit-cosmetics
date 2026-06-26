@@ -77,6 +77,8 @@ def cloudinary_delivery_path(url: str) -> tuple[str, str]:
 
 
 def og_image_url(image_url: str | None, video_url: str | None = None) -> str:
+    if image_url and image_url.startswith("https://") and "res.cloudinary.com" not in image_url:
+        return image_url
     if image_url:
         resource, path = cloudinary_delivery_path(image_url)
         if path:

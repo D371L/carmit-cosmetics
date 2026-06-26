@@ -1082,6 +1082,39 @@ ul {
   text-align: center;
 }
 
+.post-details h2 {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-primary, #8d071b);
+}
+
+.post-details ul {
+  margin: 0 0 1.25em;
+  padding: 0 1.5em 0 0;
+  text-align: right;
+  list-style: disc;
+}
+
+.post-details li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+.post-details .post-source {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.post-details .post-source a {
+  color: var(--color-primary, #8d071b);
+  text-decoration: underline;
+}
+
 .post-details table {
   width: 100% !important;
   max-width: 100%;

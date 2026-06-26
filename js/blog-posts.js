@@ -1,5 +1,31 @@
-/* Auto-generated from Broadcust API — business uid 12148 */
+/* Auto-generated — Broadcust API + external articles */
 window.BLOG_POSTS = [
+  {
+    "id": 920260626,
+    "title": "הכירו את כרמית אסולין קוסמטיקאית מקריית חיים שמשנה את פני הקוסמטיקה המתקדמת",
+    "seoTitle": "כרמית אסולין — קוסמטיקאית מקריית חיים — כרמית אסולין",
+    "description": "ראיון עם כרמית אסולין, קוסמטיקאית מוסמכת מקריית חיים — טיפולים מתקדמים, טכנולוגיות חדשניות וגישה אישית בקליניקה ברחוב הראשונים 39.",
+    "date": "26/06/2026 10:00:00",
+    "datePublished": "2026-06-26T10:00:00+02:00",
+    "image": "https://pic1.yitweb.co.il/picserver/mynet/crop_images/2025/10/05/SJgfotyaxe/SJgfotyaxe_1_204_1284_723_0_large.jpg",
+    "ogImage": "https://pic1.yitweb.co.il/picserver/mynet/crop_images/2025/10/05/SJgfotyaxe/SJgfotyaxe_1_204_1284_723_0_large.jpg",
+    "type": "article",
+    "external": true,
+    "sourceUrl": "https://krayot.mynet.co.il/good_to_know/article/rjcffyytxg"
+  },
+  {
+    "id": 918279001,
+    "title": "המסע לעור מושלם: סודות הטיפוח והחידוש אצל כרמית אסולין",
+    "seoTitle": "המסע לעור מושלם — סודות הטיפוח אצל כרמית אסולין",
+    "description": "מאמר על טיפולי אנטי־אייג'ינג, אקנה, מזותרפיה והבהרה בקליניקה של כרמית אסולין בקריית חיים — גישה טיפולית מעמיקה והתאמה אישית.",
+    "date": "01/06/2026 09:00:00",
+    "datePublished": "2026-06-01T09:00:00+02:00",
+    "image": "https://d282gstglbqa5g.cloudfront.net/loadedFiles/WhatsApp-Image-2025-12-23-at-09.57.59_1766559708.jpeg",
+    "ogImage": "https://d282gstglbqa5g.cloudfront.net/loadedFiles/WhatsApp-Image-2025-12-23-at-09.57.59_1766559708.jpeg",
+    "type": "article",
+    "external": true,
+    "sourceUrl": "https://www.hamlatza.co.il/index2.php?id=18279&lang=HEB"
+  },
   {
     "id": 3105956,
     "title": "🎬 סרטון -לעור שלך מגיע התחדשות עמוקה ומראה זוהר. בואי ל כרמית אסולין קוסמטיקה מתקדמת בקרית חיים! חייגי עכשיו 052-4677347",

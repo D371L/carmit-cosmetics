@@ -119,6 +119,21 @@ def audit_all_posts(posts: list[dict], content: dict[str, str]) -> bool:
                 all_ok = False
             continue
 
+        if post.get("external"):
+            html = content.get(str(post_id), "")
+            image_ok = bool(post.get("image"))
+            details_ok = audit_content(html)
+            ok = image_ok and details_ok
+            print(
+                f"{post_id:<10} {'article':<8} "
+                f"{'yes' if image_ok else 'NO':<8} "
+                f"{'yes' if details_ok else 'NO':<8} "
+                f"{'yes' if ok else 'NO'} (external)"
+            )
+            if not ok:
+                all_ok = False
+            continue
+
         html = content.get(str(post_id), "")
         image_ok = bool(post.get("image"))
         details_ok = audit_content(html)
@@ -149,6 +164,9 @@ def main() -> None:
     kept: list[int] = []
 
     for post in articles:
+        if post.get("external"):
+            print(f"  skip external {post['id']}")
+            continue
         post_id = int(post["id"])
         combined, status, details_ok = fetch_post(post_id)
         key = str(post_id)
@@ -185,7 +203,11 @@ def main() -> None:
     if failed:
         print(f"  failed: {failed}")
 
-    missing = [p["id"] for p in articles if str(p["id"]) not in content]
+    missing = [
+        p["id"]
+        for p in articles
+        if not p.get("external") and str(p["id"]) not in content
+    ]
     if missing:
         print(f"  WARNING missing content for: {missing}")
         sys.exit(1)

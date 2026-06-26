@@ -44,6 +44,9 @@ post/{id}.html          Static blog posts with server-rendered OG meta
 accessibility.html      Accessibility statement
 privacy.html            Privacy policy
 
+data/
+  external-articles.json  External blog posts (MyNet, press, etc.)
+
 css/
   styles.css            Main styles
   a11y.css              Accessibility widget
@@ -70,6 +73,7 @@ scripts/
   generate-site-meta.py Update SEO blocks in index/blog/privacy/accessibility
   audit-seo.py          Validate OG tags and image reachability (CI gate)
   fetch-blog-posts.py   Refresh blog data from Broadcust API
+  merge-external-articles.py  Merge data/external-articles.json into blog JS
   enrich-blog-posts.py  Add SEO fields to blog-posts.js (no API)
   fetch-post-content.py Fetch article details into blog-content.js
   generate-post-pages.py  Build post/{id}.html with static OG tags
@@ -85,7 +89,7 @@ scripts/
 
 1. Push the code to the `main` branch on GitHub.
 2. Go to **Settings → Pages → Build and deployment** and set the source to **GitHub Actions**.
-3. Push to `main` — the workflow runs `enrich-blog-posts`, `generate-site-meta`, `generate-post-pages`, `generate-sitemap`, and `audit-seo.py` before deploy.
+3. Push to `main` — the workflow runs `merge-external-articles`, `enrich-blog-posts`, `generate-site-meta`, `generate-post-pages`, `generate-sitemap`, and `audit-seo.py` before deploy.
 
 ### Changing the domain
 
@@ -107,7 +111,8 @@ scripts/
 |------|-------------|
 | Clinic address, phone, social links | `scripts/seo_config.py` + `python3 scripts/sync-seo.py` |
 | Gallery images and alt text | `js/gallery-data.js` |
-| Blog posts | `fetch-blog-posts.py` → `enrich-blog-posts.py` → `fetch-post-content.py` → `generate-post-pages.py` → `generate-sitemap.py` |
+| Blog posts (Broadcust) | `fetch-blog-posts.py` → `enrich-blog-posts.py` → `fetch-post-content.py` → `generate-post-pages.py` → `generate-sitemap.py` |
+| External articles (MyNet, press) | Edit `data/external-articles.json` → `merge-external-articles.py` → same SEO pipeline as above |
 | Instagram link | `index.html` |
 | Media assets | Hosted on Cloudinary CDN |
 
@@ -120,15 +125,32 @@ Messenger apps (WhatsApp, Telegram, Facebook) **do not run JavaScript**. Each bl
 **After updating blog posts:**
 
 ```bash
-python3 scripts/fetch-blog-posts.py      # optional — refresh from API
-python3 scripts/enrich-blog-posts.py     # add seoTitle, description, ogImage
-python3 scripts/fetch-post-content.py    # download article details (19 posts)
-python3 scripts/sync-seo.py              # regenerate site-config.js
-python3 scripts/generate-site-meta.py    # update index/blog/legal page meta
-python3 scripts/generate-post-pages.py   # rebuild post/*.html
+python3 scripts/merge-external-articles.py   # merge external articles from data/
+python3 scripts/fetch-blog-posts.py          # optional — refresh from API (re-runs merge)
+python3 scripts/enrich-blog-posts.py       # add seoTitle, description, ogImage
+python3 scripts/fetch-post-content.py      # download article details (Broadcust only)
+python3 scripts/sync-seo.py                # regenerate site-config.js
+python3 scripts/generate-site-meta.py      # update index/blog/legal page meta
+python3 scripts/generate-post-pages.py     # rebuild post/*.html
 python3 scripts/generate-sitemap.py
-python3 scripts/audit-seo.py             # validate all OG tags + images
+python3 scripts/audit-seo.py               # validate all OG tags + images
 ```
+
+### External articles
+
+Press and third-party articles live in [`data/external-articles.json`](data/external-articles.json). Each entry has `id`, `title`, `sections` (body), `sourceUrl`, and optional `imageFallback` (Cloudinary clinic photo if the source cover cannot be fetched).
+
+After editing the JSON:
+
+```bash
+python3 scripts/merge-external-articles.py
+python3 scripts/enrich-blog-posts.py
+python3 scripts/generate-post-pages.py
+python3 scripts/generate-sitemap.py
+python3 scripts/audit-seo.py
+```
+
+Posts are marked `"external": true` in `blog-posts.js` so `fetch-post-content.py` does not overwrite their body. `fetch-blog-posts.py` re-runs merge automatically after an API refresh.
 
 **Test previews after deploy:**
 

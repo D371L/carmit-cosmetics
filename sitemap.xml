@@ -3,27 +3,47 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://carmitcosmetics.co.il/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/blog.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/accessibility.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/privacy.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://carmitcosmetics.co.il/post/920260626.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://pic1.yitweb.co.il/picserver/mynet/crop_images/2025/10/05/SJgfotyaxe/SJgfotyaxe_1_204_1284_723_0_large.jpg</image:loc>
+      <image:title>כרמית אסולין — קוסמטיקאית מקריית חיים — כרמית אסולין</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://carmitcosmetics.co.il/post/918279001.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://d282gstglbqa5g.cloudfront.net/loadedFiles/WhatsApp-Image-2025-12-23-at-09.57.59_1766559708.jpeg</image:loc>
+      <image:title>המסע לעור מושלם — סודות הטיפוח אצל כרמית אסולין</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://carmitcosmetics.co.il/post/3105956.html</loc>

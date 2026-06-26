@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 import urllib.request
 from pathlib import Path
@@ -76,6 +77,10 @@ def main() -> None:
         f.write(";\n")
 
     print(f"Wrote {len(posts)} posts to {OUT}")
+
+    merge_script = ROOT / "merge-external-articles.py"
+    if merge_script.exists():
+        subprocess.run([sys.executable, str(merge_script)], check=True)
 
 
 if __name__ == "__main__":
