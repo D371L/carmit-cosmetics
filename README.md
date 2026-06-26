@@ -88,8 +88,10 @@ scripts/
 ## Deployment (GitHub Pages)
 
 1. Push the code to the `main` branch on GitHub.
-2. Go to **Settings → Pages → Build and deployment** and set the source to **GitHub Actions**.
+2. Go to **Settings → Pages → Build and deployment** and set the source to **GitHub Actions** (not “Deploy from a branch”). This is required — if both `pages build and deployment` and `Deploy to GitHub Pages` run on push, the Actions deploy may fail with **409 Conflict** (“in progress deployment”).
 3. Push to `main` — the workflow runs `merge-external-articles`, `enrich-blog-posts`, `generate-site-meta`, `generate-post-pages`, `generate-sitemap`, and `audit-seo.py` before deploy.
+
+To fix a 409 deploy error, confirm Pages source is **GitHub Actions**, then re-run **Actions → Deploy to GitHub Pages → Run workflow**.
 
 ### Changing the domain
 
