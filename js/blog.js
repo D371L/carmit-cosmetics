@@ -64,11 +64,14 @@
         : '';
     const loading = eager ? 'eager' : 'lazy';
     const fetchPriority = eager ? ' fetchpriority="high"' : '';
+    const posStyle = post.thumbPosition
+      ? ` style="object-position: ${escapeHtml(post.thumbPosition)}"`
+      : '';
     return `
       <article class="blog-card">
         <a class="blog-card-link" href="post/${post.id}.html">
           <div class="blog-card-media">
-            <img src="${escapeHtml(postThumb(post))}" alt="${escapeHtml(post.title)}" loading="${loading}" decoding="async"${fetchPriority}>
+            <img src="${escapeHtml(postThumb(post))}" alt="${escapeHtml(post.title)}" loading="${loading}" decoding="async"${fetchPriority}${posStyle}>
             ${badge}
           </div>
           <div class="blog-card-body">

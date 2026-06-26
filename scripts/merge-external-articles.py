@@ -187,6 +187,8 @@ def article_to_post(article: dict, image_url: str) -> dict:
         "external": True,
         "sourceUrl": article.get("sourceUrl", ""),
     }
+    if article.get("thumbPosition"):
+        post["thumbPosition"] = article["thumbPosition"]
     return post
 
 

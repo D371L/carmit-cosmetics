@@ -24,7 +24,8 @@ window.BLOG_POSTS = [
     "ogImage": "https://d282gstglbqa5g.cloudfront.net/loadedFiles/WhatsApp-Image-2025-12-23-at-09.57.59_1766559708.jpeg",
     "type": "article",
     "external": true,
-    "sourceUrl": "https://www.hamlatza.co.il/index2.php?id=18279&lang=HEB"
+    "sourceUrl": "https://www.hamlatza.co.il/index2.php?id=18279&lang=HEB",
+    "thumbPosition": "50% 22%"
   },
   {
     "id": 3105956,

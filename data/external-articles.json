@@ -71,6 +71,7 @@
       "type": "article",
       "image": "",
       "imageFallback": "https://res.cloudinary.com/broadcust/image/upload/f_auto,q_auto:eco,w_360,h_202,c_fill/v1749366621/production/users/12148/campaign/2721119_d3f15012-c6f8-4bda-9c60-8b9f861d9418.jpg",
+      "thumbPosition": "50% 22%",
       "sections": [
         {
           "type": "p",
