@@ -58,7 +58,7 @@ js/
   gallery-data.js       Gallery items (images + videos)
   gallery.js            Carousel and lightbox
   blog-posts.js         Blog post data (+ seoTitle, ogImage, description)
-  blog-content.js       Pre-fetched article canvas + details HTML
+  blog-content.js       Pre-fetched article body HTML (post-details)
   blog.js               Blog listing renderer
   post.js               Single post loader
   scroll-progress.js    Top scroll progress bar
@@ -89,9 +89,13 @@ scripts/
 
 1. Push the code to the `main` branch on GitHub.
 2. Go to **Settings → Pages → Build and deployment** and set the source to **GitHub Actions** (not “Deploy from a branch”). This is required — if both `pages build and deployment` and `Deploy to GitHub Pages` run on push, the Actions deploy may fail with **409 Conflict** (“in progress deployment”).
-3. Push to `main` — the workflow runs `merge-external-articles`, `enrich-blog-posts`, `generate-site-meta`, `generate-post-pages`, `generate-sitemap`, and `audit-seo.py` before deploy.
+3. Push to `main` — CI in [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) runs, in order:
 
-To fix a 409 deploy error, confirm Pages source is **GitHub Actions**, then re-run **Actions → Deploy to GitHub Pages → Run workflow**.
+   `merge-external-articles` → `enrich-blog-posts` → `fetch-post-content` (Broadcust only) → `sync-seo` → `generate-site-meta` → `generate-post-pages` → `generate-sitemap` → `audit-seo` → deploy.
+
+   Manual re-deploy: **Actions → Deploy to GitHub Pages → Run workflow**.
+
+To fix a 409 deploy error, confirm Pages source is **GitHub Actions**, then re-run the workflow (see above).
 
 ### Changing the domain
 
@@ -103,7 +107,7 @@ To fix a 409 deploy error, confirm Pages source is **GitHub Actions**, then re-r
    python3 scripts/generate-post-pages.py
    python3 scripts/generate-sitemap.py
    ```
-3. For a custom domain, add a `CNAME` file at the repo root and configure it under Pages → Custom domain.
+3. For a custom domain, add a `CNAME` file at the repo root (currently `carmitcosmetics.co.il`) and configure it under Pages → Custom domain.
 
 ---
 
@@ -111,11 +115,11 @@ To fix a 409 deploy error, confirm Pages source is **GitHub Actions**, then re-r
 
 | What | Where / how |
 |------|-------------|
-| Clinic address, phone, social links | `scripts/seo_config.py` + `python3 scripts/sync-seo.py` |
+| Phone, email, address, Facebook (JSON-LD) | [`scripts/seo_config.py`](scripts/seo_config.py) + `python3 scripts/sync-seo.py` |
+| Instagram, Facebook buttons on homepage | [`index.html`](index.html) (action buttons) |
 | Gallery images and alt text | `js/gallery-data.js` |
 | Blog posts (Broadcust) | `fetch-blog-posts.py` → `enrich-blog-posts.py` → `fetch-post-content.py` → `generate-post-pages.py` → `generate-sitemap.py` |
-| External articles (MyNet, press) | Edit `data/external-articles.json` → `merge-external-articles.py` → same SEO pipeline as above |
-| Instagram link | `index.html` |
+| External articles (MyNet, press) | Edit [`data/external-articles.json`](data/external-articles.json) → `merge-external-articles.py` → same SEO pipeline as below |
 | Media assets | Hosted on Cloudinary CDN |
 
 ---
@@ -140,17 +144,16 @@ python3 scripts/audit-seo.py               # validate all OG tags + images
 
 ### External articles
 
-Press and third-party articles live in [`data/external-articles.json`](data/external-articles.json). Each entry has `id`, `title`, `sections` (body), `sourceUrl`, and optional `imageFallback` (Cloudinary clinic photo if the source cover cannot be fetched).
+Press and third-party articles live in [`data/external-articles.json`](data/external-articles.json).
 
-After editing the JSON:
-
-```bash
-python3 scripts/merge-external-articles.py
-python3 scripts/enrich-blog-posts.py
-python3 scripts/generate-post-pages.py
-python3 scripts/generate-sitemap.py
-python3 scripts/audit-seo.py
-```
+| Field | Purpose |
+|-------|---------|
+| `id` | Stable numeric ID (outside Broadcust range, e.g. `918279001`) |
+| `title`, `seoTitle`, `description`, `date` | Listing and SEO metadata |
+| `sourceUrl`, `sourceName` | Attribution link at the bottom of the article |
+| `sections` | Body: `{ "type": "p" \| "h2" \| "ul", "text": "..." }` or `items` for lists |
+| `imageFallback` | Cloudinary clinic photo if the source cover cannot be fetched |
+| `thumbPosition` | Optional CSS `object-position` for blog cards only (e.g. `"50% 22%"` for portrait photos) |
 
 Posts are marked `"external": true` in `blog-posts.js` so `fetch-post-content.py` does not overwrite their body. `fetch-blog-posts.py` re-runs merge automatically after an API refresh.
 
